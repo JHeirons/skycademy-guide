@@ -8,3 +8,7 @@
   and some explanation of the point
 
 10. continued numbering
+
+- item 1
+- item 2
+- item 3
