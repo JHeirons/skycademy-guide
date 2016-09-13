@@ -14,3 +14,4 @@
 - item 3
 
 [This is a link](http://www.raspberrypi.org)
+![Logo](1/raspberry-pi-logo-212x250.png)
