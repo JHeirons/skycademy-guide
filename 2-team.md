@@ -1,6 +1,6 @@
 # 2. Build a Team
 
-Once you are back in your school or organisaion, you'll need to assemble a motley crew of people who will help you in your epic quest to rule the skies. Here's our concise guide to team building:
+Once you are back in your school or organisaion, you'll need to assemble a crew of people who will help you in your epic quest to rule the skies. Here's our concise guide to team building:
 
 **1. Colleagues** The best place to start is feeding back to your colleagues and finding out who else might be interested in helping out for your launches. You are going to need people who can:
   - advise and help others with a similar level of knowledge to you about how a launch works
