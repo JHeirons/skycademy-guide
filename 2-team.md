@@ -1,5 +1,7 @@
 # 2. Build a Team
 
+![Team Photo](2/teamphoto.jpg)
+
 Once you've decided to launch a High Altitude Balloon, you'll need to assemble a crew of people who will help you on your epic quest to rule the skies. Here's our concise guide to team building:
 
 **1. Colleagues** Start by talking to your colleagues and finding out who is interested in assisting at your launches. You're going to need people who can:
