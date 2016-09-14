@@ -1,14 +1,14 @@
 # 2. Build a Team
 
-Once you are back in your school or organisaion, you'll need to assemble a crew of people who will help you in your epic quest to rule the skies. Here's our concise guide to team building:
+Once you've decided to launch a High Altitude Balloon, you'll need to assemble a crew of people who will help you on your epic quest to rule the skies. Here's our concise guide to team building:
 
-**1. Colleagues** The best place to start is feeding back to your colleagues and finding out who else might be interested in helping out for your launches. You are going to need people who can:
+**1. Colleagues** Start by talking to your colleagues and finding out who is interested in assisting at your launches. You're going to need people who can:
   - advise and help others with a similar level of knowledge to you about how a launch works
   - drive groups of people to different sites while launching, tracking and retrieving your flights
-  - potentially provide first aid in the event of injury
+  - potentially provide first aid 
   
 TO DO:
-Invite your colleagues to a show and tell session on what you learned from Skycademy. You can use the presentation we shared with you as a starting point.
+Invite your colleagues to a show and tell session to explain what High Altitude Ballooning is. 
 
 **2. Students** Your students are ultimately going to be the ones who benefit the most from participating in the flight. For larger cohorts, it becomes essential to assign groups of people to different roles. Typical roles are:
   - Payload Makers - concentrates on assembling and testing the payload equipment
