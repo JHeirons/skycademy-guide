@@ -11,21 +11,21 @@ TO DO:
 Invite your colleagues to a show and tell session to explain what High Altitude Ballooning is. Use our What Is High Altitude Ballooning? slideshow as a starting point.
 
 **2. Students** Your students are ultimately going to be the ones who benefit the most from participating in the flight. For larger cohorts, it becomes essential to assign groups of people to different roles. Typical roles are:
-  - Payload Makers - concentrates on assembling and testing the payload equipment
-  - Tracker Makers - concentrates on assembling and testing the tracking equipment
-  - Launch Makers  - focuses on carrying out all the pre-flight checks, measurements and assembly of the balloon's train on launch day
+  - Payload Makers who concentrate on assembling and testing the payload equipment
+  - Tracker Makers who concentrate on assembling and testing the tracking equipment
+  - Launch Makers who focus on carrying out all the pre-flight checks, measurements and assembly of the balloon kit on launch day
 
 TO DO:
 Make a list of tasks to complete and allocate groups of students to them.
 
-**3. Transport** You'll need to find a safe way of transporting people to and from your launches. Some schools/organisations have their own minibus to use, but you may want to get a coach or several drivers to ferry people around. 
+**3. Transport** You'll need a safe way of transporting people to and from your launches. Some schools/organisations have their own minibus to use, but you may want to hire a coach or get several volunteer drivers to ferry people around. 
 
 TO DO:
-Work out the travel logistics of getting to a launch site, tracking a payload, retrieving a payload and returning home.
+Work out the travel logistics and personnel for getting to a launch site, tracking a payload, retrieving a payload and returning home.
 
-**4. Trackers** For any launch to be successful, you will be relying on both yours and the wider High Altitude Ballooning community's ability to help you track your position in the sky in real time. It's a good idea to involve:
+**4. Trackers** For a launch to be successful, you will be relying on both yours and the wider High Altitude Ballooning community's ability to help you track your position in the sky in real time. It's a good idea to involve:
   - Your local HAM radio group - tap in to local expertise by finding other local radio enthusiasts. The Radio Society of Great Britain have a useful [Club Finder](https://thersgb.org/services/clubfinder/) on their website. They'll probably be only too happy to offer assistance on the day!
-  - When you submit your flight documents, the wider HAB community will also be able to track your flight through [HABHUB.org](http://habhub.org/). This will happen automatically and will be massively helpful during your flight.
+  - The wider HAB community. When you submit your flight documents, they community will also be able to track your flight through [HABHUB.org](http://habhub.org/). This will happen automatically and will be very helpful during your flight.
   
 TO DO:
 Log on to HABHUB and track a couple of other launches to understand how people monitor flights. Find your local, friendly, HAM radio expert.  
