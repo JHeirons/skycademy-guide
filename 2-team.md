@@ -8,7 +8,7 @@ Once you've decided to launch a High Altitude Balloon, you'll need to assemble a
   - potentially provide first aid 
   
 TO DO:
-Invite your colleagues to a show and tell session to explain what High Altitude Ballooning is. 
+Invite your colleagues to a show and tell session to explain what High Altitude Ballooning is. Use our What Is High Altitude Ballooning? slideshow as a starting point.
 
 **2. Students** Your students are ultimately going to be the ones who benefit the most from participating in the flight. For larger cohorts, it becomes essential to assign groups of people to different roles. Typical roles are:
   - Payload Makers - concentrates on assembling and testing the payload equipment
