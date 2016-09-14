@@ -16,7 +16,7 @@ Invite your colleagues to a show and tell session on what you learned from Skyca
   - Launch Makers  - focuses on carrying out all the pre-flight checks, measurements and assembly of the balloon's train on launch day
 
 TO DO:
-Make a rough list of which students you would like to allocate to each of these teams.
+Make a list of tasks to complete and allocate groups of students to them.
 
 **3. Transport** You'll need to find a safe way of transporting people to and from your launches. Some schools/organisations have their own minibus to use, but you may want to invest in a coach or several helpers to ferry people around. 
 
