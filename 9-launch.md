@@ -1,15 +1,16 @@
 # 9. Launch, Chase and Recover
 
-ONE WEEK BEFORE
+ONE MONTH BEFORE
+1. Complete offsite risk assessment
+2. Get Civil Aviation Authority (CAA) permission to launch, including NOTAM - "a notice filed with an aviation authority to alert aircraft pilots of potential hazards along a flight route or at a location that could affect the safety of the flight."
 
+ONE WEEK BEFORE
 1. Check all your components against your launch inventory list to ensure everything you need is packed for transport.
 2. Have you done your pre-flight calculations and measured out how much water you will need to achieve the right ascent rate for the balloon? (jump to Section 7 - Calculate Your Flight Profile for a detailed description of how to achieve this.)
-2. Transport arrangements been confirmed?
-3. Extra staffing needs been confirmed?
-4. Are both students and adult supervisors clear on their different roles at the launch?
-5. Offsite risk assessments been completed?
-6. Have you contacted the Civil Aviation Authority to inform them of your intention to launch?
-7. Check the predicted flight path at your launch time using the [CUSF Landing Predictor](http://predict.habhub.org/).
+3. Confirm transport arrangements 
+4. Confirm extra staffing needs 
+5. Are both students and adult supervisors clear on their different roles at the launch?
+6. Check the predicted flight path at your launch time using the [CUSF Landing Predictor](http://predict.habhub.org/).
 
 ON ARRIVAL AT THE LAUNCH SITE
 
