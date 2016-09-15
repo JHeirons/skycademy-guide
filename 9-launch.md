@@ -27,7 +27,7 @@ Please Note: This article assumes you have already successfully assembled and te
 2. Charge all things that rely on battery power during launch day.
 3. Check all your components against your launch inventory list to ensure everything you need is packed for transport.
 
-###On The Day Take 
+###To Take On The Day
 
 - CAA Permit
 - Telephone Numbers: ATC - local airfields, emergency services, people in chase vehicles
@@ -60,6 +60,8 @@ Please Note: This article assumes you have already successfully assembled and te
 17. Let go of the balloon to launch!
 
 In addition to the above, there is also a list of [common launch mistakes] (https://ukhas.org.uk/guides:things_not_to_do) you'll want to consider as your prepare.
+
+![launching a balloon](9/launch.jpg)
 
 ###Tracking And Recovering The Flight
 
