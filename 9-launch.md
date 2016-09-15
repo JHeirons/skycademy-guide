@@ -27,17 +27,17 @@ THE DAY BEFORE
 
 ON THE DAY TAKE
 
-1. CAA Permit
-2. Telephone Numbers: ATC - local airfields, emergency services
-3. Payload, batteries (+ spares) RADAR reflector, parachute, cutdown (+ spares)
-4. Balloons, Cable ties, Cord, Duct Tape
-5. Helium, regulator, filling system
-6. Tools inc. Spanners set up filling system
-7. Scales, weights.
-8. Radio System: Receiver, Yagi, Stand, PC, Software, Audio-lead, Batteries (+ spares)
-9. Ancillary stuff like: Table, Chairs, Sun/Rain shade
-10. Recovery: GPS, long telescopic pole (for trees), string, PMR (intra recovery team comms)
-11. Boots/Wet Weather clothes/Sun Hat/Suncream/Water/Food
+- CAA Permit
+- Telephone Numbers: ATC - local airfields, emergency services
+- Payload, batteries (+ spares) RADAR reflector, parachute, cutdown (+ spares)
+- Balloons, Cable ties, Cord, Duct Tape
+- Helium, regulator, filling system
+- Tools inc. Spanners set up filling system
+- Scales, weights.
+- Radio System: Receiver, Yagi, Stand, PC, Software, Audio-lead, Batteries (+ spares)
+- Ancillary stuff like: Table, Chairs, Sun/Rain shade
+- Recovery: GPS, long telescopic pole (for trees), string, PMR (intra recovery team comms)
+- Boots/Wet Weather clothes/Sun Hat/Suncream/Water/Food
 
 ON ARRIVAL AT THE LAUNCH SITE
 
