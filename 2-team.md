@@ -37,5 +37,5 @@ Log on to HABHUB and track a couple of other launches to understand how people m
 TO DO:
 Research local businesses you can partner with for launch sponsorship.
 
-**6. Tech Support** No team is complete without someone who has a deep technical knowledge of the kit and who can help you troubleshoot problems. Dave Akerman is Skycademy's technical lead and the developer of the software that runs on the Pi-In-The-Sky or PITS board. You can find loads of useful information on his [website](http://www.daveakerman.com/)   
+**6. Tech Support** No team is complete without someone who has a deep technical knowledge of the kit and who can help you troubleshoot problems. Dave Akerman is Skycademy's technical lead and the developer of the software that runs on the Pi-In-The-Sky or PITS board. You can find lots of useful information on his [website](http://www.daveakerman.com/).   
 
