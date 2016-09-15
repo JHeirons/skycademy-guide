@@ -31,3 +31,12 @@ ON ARRIVAL AT THE LAUNCH SITE
 16. Do a final check to make sure you are still getting a signal.
 17. Let go of the balloon to launch!
 
+TRACKING THE FLIGHT
+
+The time the balloon takes to launch, ascend to maximum height, burst, descend slowly via parachute, and land is about 2.5 hours. You therefore have plenty of time to track the payload in the following ways:
+
+TRACKER BOX - **link to article on making the tracker box** will continue to decode flight data and give you read outs for current altitude.
+
+LAPTOP WITH A DATA ROAMING WIFI DONGLE - having roaming internet connectivity will enable you to log on to HABHUB and track your flight on a map overlay with a predicted landing point. The live predictions can change quite considerably during a flight, so you should only start to pay attention once the balloon has burst and is descending.
+
+ANDROID PHONE - **[not sure what to put here James]**
