@@ -57,11 +57,11 @@ ON ARRIVAL AT THE LAUNCH SITE
 16. Do a final check to make sure you are still getting a signal.
 17. Let go of the balloon to launch!
 
-In addition to the above, there is also a list of [common launch mistakes] (https://ukhas.org.uk/guides:things_not_to_do) you'll want to be thinking about as your prepare.
+In addition to the above, there is also a list of [common launch mistakes] (https://ukhas.org.uk/guides:things_not_to_do) you'll want to consider as your prepare.
 
 TRACKING THE FLIGHT
 
-It usually takes around 2-2.5 hours for a balloon to launch, ascend to maximum height, burst, descend slowly via parachute, and land. You therefore have a decent amount of time to track the payload. It's worth reading UKHAS's guide to a [successful payload recovery](https://ukhas.org.uk/guides:chasing_your_flight) to make sure you stand the best chance of getting it back.
+It usually takes around 2-2.5 hours for a balloon to launch, ascend to maximum height, burst, descend slowly via parachute, and land. You therefore have a decent amount of time to track the payload. It's worth reading the UKHAS guide to a [successful payload recovery](https://ukhas.org.uk/guides:chasing_your_flight) to make sure you stand the best chance of getting it back.
 
 You can track the flight in the following ways:
 
