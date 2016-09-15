@@ -1,16 +1,41 @@
 # 9. Launch, Chase and Recover
 
+Here's our walkthrough for anyone wishing to prepare for their launch. More detailed guides for certain procedures can be found in our other guides and are linked to within the text.
+
 ONE MONTH BEFORE
-1. Complete offsite risk assessment
+
+1. Order Balloon(s)
 2. Get Civil Aviation Authority (CAA) permission to launch, including NOTAM - "a notice filed with an aviation authority to alert aircraft pilots of potential hazards along a flight route or at a location that could affect the safety of the flight."
+3. Confirm transport arrangements. 
+4. Confirm extra staffing needs. 
+5. Complete offsite risk assessment.
 
 ONE WEEK BEFORE
-1. Check all your components against your launch inventory list to ensure everything you need is packed for transport.
-2. Have you done your pre-flight calculations and measured out how much water you will need to achieve the right ascent rate for the balloon? (jump to Section 7 - Calculate Your Flight Profile for a detailed description of how to achieve this.)
-3. Confirm transport arrangements 
-4. Confirm extra staffing needs 
-5. Are both students and adult supervisors clear on their different roles at the launch?
-6. Check the predicted flight path at your launch time using the [CUSF Landing Predictor](http://predict.habhub.org/).
+
+1. Order Helium.
+2. Complete your pre-flight calculations and measure out how much water you will need to achieve the right ascent rate for the balloon? (jump to Section 7 - Calculate Your Flight Profile for a detailed description of how to achieve this.)
+2. Make sure students and adult supervisors are clear on their different roles at the launch.
+
+
+THE DAY BEFORE
+
+1. Check the predicted flight path at your launch time using the [CUSF Landing Predictor](http://predict.habhub.org/).
+2. Charge all things that rely on battery power during launch day.
+3. Check all your components against your launch inventory list to ensure everything you need is packed for transport.
+
+ON THE DAY TAKE
+
+1. CAA Permit
+2. Telephone Numbers: ATC - local airfields, emergency services
+3. Payload, batteries (+ spares) RADAR reflector, parachute, cutdown (+ spares)
+4. Balloons, Cable ties, Cord, Duct Tape
+5. Helium, regulator, filling system
+6. Tools inc. Spanners set up filling system
+7. Scales, weights.
+8. Radio System: Receiver, Yagi, Stand, PC, Software, Audio-lead, Batteries (+ spares)
+9. Ancillary stuff like: Table, Chairs, Sun/Rain shade
+10. Recovery: GPS, long telescopic pole (for trees), string, PMR (intra recovery team comms)
+11. Boots/Wet Weather clothes/Sun Hat/Suncream/Water/Food
 
 ON ARRIVAL AT THE LAUNCH SITE
 
