@@ -15,19 +15,19 @@ Please Note: This article assumes you have already successfully assembled and te
 4. Confirm extra staffing needs. 
 5. Complete an offsite risk assessment.
 
-###One Week ONE WEEK BEFORE
+###One Week Before 
 
 1. Order Helium with correct nozzle adapter **what should I put here about the adapter James?**.
 2. Complete your pre-flight calculations and measure out how much water you will need to achieve the right ascent rate for the balloon. (jump to Section 7 - Calculate Your Flight Profile for a detailed description of how to achieve this.)
 3. Make sure students and adult supervisors are clear on their different roles at the launch.
 
-THE DAY BEFORE
+###The Day Before
 
 1. Check the predicted flight path of your launch time and location using the [CUSF Landing Predictor](http://predict.habhub.org/). This will help you work out the best time to launch so that the payload lands safely on land (and not in the sea!)
 2. Charge all things that rely on battery power during launch day.
 3. Check all your components against your launch inventory list to ensure everything you need is packed for transport.
 
-ON THE DAY TAKE
+###On The Day Take 
 
 - CAA Permit
 - Telephone Numbers: ATC - local airfields, emergency services, people in chase vehicles
@@ -41,7 +41,7 @@ ON THE DAY TAKE
 - Recovery: GPS, long telescopic pole (for retrieval from trees), string, Two way radio (intra recovery team comms)
 - Other: Boots, Wet weather clothes, Sun hats, Suncream, Drinking water, Food, Toilet roll
 
-ON ARRIVAL AT THE LAUNCH SITE
+###On Arrival At The Launch Site 
 
 1. Check the predicted flight path again using the [CUSF Landing Predictor](http://predict.habhub.org/). Weather in the UK is so varied, it's always best to check on the day!
 2. Contact your local Air Traffic Control (ATC) to confirm your launch window.
@@ -61,7 +61,7 @@ ON ARRIVAL AT THE LAUNCH SITE
 
 In addition to the above, there is also a list of [common launch mistakes] (https://ukhas.org.uk/guides:things_not_to_do) you'll want to consider as your prepare.
 
-TRACKING AND RECOVERING THE FLIGHT
+###Tracking And Recovering The Flight
 
 You can track the flight in the following ways:
 
