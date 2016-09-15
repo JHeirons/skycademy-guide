@@ -18,7 +18,7 @@ ONE MONTH BEFORE
 ONE WEEK BEFORE
 
 1. Order Helium with correct nozzle adapter **what should I put here about the adapter James?**.
-2. Complete your pre-flight calculations and measure out how much water you will need to achieve the right ascent rate for the balloon? (jump to Section 7 - Calculate Your Flight Profile for a detailed description of how to achieve this.)
+2. Complete your pre-flight calculations and measure out how much water you will need to achieve the right ascent rate for the balloon. (jump to Section 7 - Calculate Your Flight Profile for a detailed description of how to achieve this.)
 3. Make sure students and adult supervisors are clear on their different roles at the launch.
 
 THE DAY BEFORE
@@ -35,7 +35,7 @@ ON THE DAY TAKE
 - Balloons, Cable ties, Cord, Duct Tape
 - Helium, regulator, filling system
 - Tools inc. Spanners set up filling system
-- Scales, weights.
+- Scales, weights/a plastic milk bottle full of water
 - Radio System: Receiver, Yagi, Stand, PC, Software, Audio-lead, Batteries (+ spares)
 - Ancillary stuff like: Table, Chairs, Sun/Rain shade
 - Recovery: GPS, long telescopic pole (for trees), string, PMR (intra recovery team comms)
