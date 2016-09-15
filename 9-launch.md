@@ -74,6 +74,8 @@ ANDROID PHONE - **not sure what to put here James**
 
 HANDHELD RADIO RECEIVER - tuning the radio to the frequency your transmitter broadcasts over will allow you to hear a steady stream of bleeping that gets stronger as you get nearer the source. **what else to put here James?**
 
+![balloon burst](9/balloonburst.jpg)
+
 ###Chasing and Payload Recovery
 
 It usually takes around 2-2.5 hours for a balloon to launch, reach maximum height, burst, descend slowly via parachute, and land. You therefore have a decent amount of time to track and retrieve your payload. It's worth reading the UKHAS guides to a [successful payload recovery](https://ukhas.org.uk/guides:chasing_your_flight) and ['What Not To Do'](https://ukhas.org.uk/guides:how_to_lose_your_flight) before you launch to make sure you stand the best chance of getting it back.
