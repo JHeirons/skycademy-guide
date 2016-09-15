@@ -1,5 +1,7 @@
 # 9. Launch, Chase and Recover
 
+[Preparing for a launch]
+
 Here's our walkthrough for anyone wishing to prepare for their launch. More detailed guides for certain procedures can be found in our other guides and are linked to within the text. You can also find a series of excellent articles on the UKHAS wiki.
 
 Please Note: This article assumes you have already successfully assembled and tested your payload and tracking devices with your students. Visit our early guides if you need help with assembly.
