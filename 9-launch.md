@@ -74,7 +74,7 @@ ANDROID PHONE - **not sure what to put here James**
 
 HANDHELD RADIO RECEIVER - tuning the radio to the frequency your transmitter broadcasts over will allow you to hear a steady stream of bleeping that gets stronger as you get nearer the source. **what else to put here James?**
 
-![balloon burst](9/balloonburst.jpg)
+![balloon burst](9/balloonburst.png)
 
 ###Chasing and Payload Recovery
 
