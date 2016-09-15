@@ -22,12 +22,12 @@ ON ARRIVAL AT THE LAUNCH SITE
 7. Attach lengths of nylon cord to your payload and attach the parachute.
 8. Put on your latex gloves. Lay your balloon out carefully on the tarpaulin and inspect for wear and tear.
 9. Use cable ties to fasten the neck and mouth of the balloon round the balloon-to-gas cylinder adapter. Attach the weighed out water in a bottle to the balloon using nylon cord.
-10.Turn on the gas to begin filling the balloon. Continue to fill until the balloon gently rises with the water bottle attached.
-11.Carefully cut the cable ties holding the balloon neck on to the adapter, slide the adapter out while gripping the neck tightly to not let gas out. 
-12.Cable tie the neck twice near where you are holding it. 
-13.Fold the excess neck up and wrap with gaffa tape. Make sure someone sensible is now holding the balloon or it will fly away!
-14.Remove the water bottle and attach the payload to the balloon using gaffa tape.
-15.Do a quick test for wind direction by throwing some grass in the air. Check that the released balloon isn't immediately going to fly in to a hazard such as trees, pylons, etc.
-16.Do a final check to make sure you are still getting a signal.
-17.Let go of the balloon to launch!
+10. Turn on the gas to begin filling the balloon. Continue to fill until the balloon gently rises with the water bottle attached.
+11. Carefully cut the cable ties holding the balloon neck on to the adapter, slide the adapter out while gripping the neck tightly to not let gas out. 
+12. Cable tie the neck twice near where you are holding it. 
+13. Fold the excess neck up and wrap with gaffa tape. Make sure someone sensible is now holding the balloon or it will fly away!
+14. Remove the water bottle and attach the payload to the balloon using gaffa tape.
+15. Do a quick test for wind direction by throwing some grass in the air. Check that the released balloon isn't immediately going to fly in to a hazard such as trees, pylons, etc.
+16. Do a final check to make sure you are still getting a signal.
+17. Let go of the balloon to launch!
 
