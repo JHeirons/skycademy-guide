@@ -47,7 +47,7 @@ Please Note: This article assumes you have already successfully assembled and te
 2. Contact your local Air Traffic Control (ATC) to confirm your launch window.
 3. Lay out tarpaulin and secure with tent pegs.
 4. Power up your payload and check it's posting images to [ssdv.habhub.org](http://ssdv.habhub.org/).
-5. Power up your tracking equipment and test that you are receiving a clear signal from the payload. **should link to section 5: Test The Flight Unit**
+5. Power up your tracking equipment and test that you are receiving a clear signal from the payload. **should link to section 5: Test The Flight Unit once written**
 6. Secure your payload in it's polystyrene capsule with lots of gaffa tape. Make sure the camera module is also securely fastened in position.
 7. Attach lengths of nylon cord to your payload and attach the parachute.
 8. Put on your latex gloves. Lay your balloon out carefully on the tarpaulin and inspect for wear and tear.
