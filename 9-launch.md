@@ -62,7 +62,7 @@ Please Note: This article assumes you have already successfully assembled and te
 
 ![launching a balloon](9/launch.jpg)
 
-###Tracking And Recovering The Flight
+###Tracking The Flight
 
 You can track the flight in the following ways:
 
@@ -74,7 +74,9 @@ ANDROID PHONE - **not sure what to put here James**
 
 HANDHELD RADIO RECEIVER - tuning the radio to the frequency your transmitter broadcasts over will allow you to hear a steady stream of bleeping that gets stronger as you get nearer the source. **what else to put here James?**
 
-It usually takes around 2-2.5 hours for a balloon to launch, ascend to maximum height, burst, descend slowly via parachute, and land. You therefore have a decent amount of time to track and retrieve your payload. It's worth reading the UKHAS guides to a [successful payload recovery](https://ukhas.org.uk/guides:chasing_your_flight) and ['What Not To Do'](https://ukhas.org.uk/guides:how_to_lose_your_flight) before you launch to make sure you stand the best chance of getting it back.
+###Chasing and Payload Recovery
+
+It usually takes around 2-2.5 hours for a balloon to launch, reach maximum height, burst, descend slowly via parachute, and land. You therefore have a decent amount of time to track and retrieve your payload. It's worth reading the UKHAS guides to a [successful payload recovery](https://ukhas.org.uk/guides:chasing_your_flight) and ['What Not To Do'](https://ukhas.org.uk/guides:how_to_lose_your_flight) before you launch to make sure you stand the best chance of getting it back.
 
 While we can't tell you what to do in every eventuality, we thought it might be beneficial for you to read a couple of blog posts about recent chases we have done and what we encountered. 
 - In this [first blog post](http://www.daveakerman.com/?p=1943), Dave Akerman's payload sets a new altitude record and lands in a field of sheep. 
