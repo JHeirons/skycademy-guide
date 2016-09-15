@@ -7,7 +7,7 @@ Here's our walkthrough for anyone wishing to prepare for their launch. More deta
 Please Note: This article assumes you have already successfully assembled and tested your payload and tracking devices. Visit our earlier guides if you need help with assembly.
 
 
-ONE MONTH BEFORE
+###One Month Before
 
 1. Order balloons.
 2. Get Civil Aviation Authority (CAA) permission to launch, including NOTAM - "a notice filed with an aviation authority to alert aircraft pilots of potential hazards along a flight route or at a location that could affect the safety of the flight."
@@ -15,7 +15,7 @@ ONE MONTH BEFORE
 4. Confirm extra staffing needs. 
 5. Complete an offsite risk assessment.
 
-ONE WEEK BEFORE
+###One Week ONE WEEK BEFORE
 
 1. Order Helium with correct nozzle adapter **what should I put here about the adapter James?**.
 2. Complete your pre-flight calculations and measure out how much water you will need to achieve the right ascent rate for the balloon. (jump to Section 7 - Calculate Your Flight Profile for a detailed description of how to achieve this.)
