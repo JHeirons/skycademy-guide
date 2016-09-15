@@ -13,7 +13,7 @@ ONE MONTH BEFORE
 2. Get Civil Aviation Authority (CAA) permission to launch, including NOTAM - "a notice filed with an aviation authority to alert aircraft pilots of potential hazards along a flight route or at a location that could affect the safety of the flight."
 3. Confirm transport arrangements. 
 4. Confirm extra staffing needs. 
-5. Complete offsite risk assessment.
+5. Complete an offsite risk assessment.
 
 ONE WEEK BEFORE
 
