@@ -51,15 +51,14 @@ Please Note: This article assumes you have already successfully assembled and te
 6. Secure your payload in it's polystyrene capsule with lots of gaffa tape. Make sure the camera module is also securely fastened in position.
 7. Attach lengths of nylon cord to your payload and attach the parachute.
 8. Put on your latex gloves. Lay your balloon out carefully on the tarpaulin and inspect for wear and tear.
-9. Use cable ties to fasten the neck and mouth of the balloon round the balloon-to-gas cylinder adapter. Attach the weighed out water in a bottle to the balloon using nylon cord.
+9. Use cable ties and duct tape to fasten the neck and mouth of the balloon round the balloon-to-gas cylinder adapter. Attach the weighed out water in a bottle to the balloon using nylon cord.
 10. Turn on the gas to begin filling the balloon. Continue to fill until the balloon gently rises with the water bottle attached.
 11. Seal the balloon in the method described on [UKHAS.org.uk](https://ukhas.org.uk/guides:sealing_the_balloon).
-14. Remove the water bottle and attach the payload to the balloon using gaffa tape.
-15. Do a quick test for wind direction by throwing some grass in the air. Check that the balloon isn't going to fly in to a hazard such as trees, pylons, etc.
-16. Do a final check to make sure you are still getting a signal.
-17. Let go of the balloon to launch!
-
-In addition to the above, there is also a list of [common launch mistakes] (https://ukhas.org.uk/guides:things_not_to_do) you'll want to consider as your prepare.
+12. Remove the water bottle and attach the payload to the balloon using gaffa tape.
+13. Do a quick test for wind direction by throwing some grass in the air. Check that the balloon isn't going to fly in to a hazard such as trees, pylons, etc.
+14. Do a final check to make sure you are still getting a signal.
+15. Let go of the balloon to launch!
+16. In addition to the above, there is also a list of [common launch mistakes] (https://ukhas.org.uk/guides:things_not_to_do) you'll want to consider as your prepare.
 
 ![launching a balloon](9/launch.jpg)
 
