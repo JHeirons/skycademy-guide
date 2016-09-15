@@ -63,8 +63,6 @@ In addition to the above, there is also a list of [common launch mistakes] (http
 
 TRACKING AND RECOVERING THE FLIGHT
 
-It usually takes around 2-2.5 hours for a balloon to launch, ascend to maximum height, burst, descend slowly via parachute, and land. You therefore have a decent amount of time to track the payload. It's worth reading the UKHAS guides to a [successful payload recovery](https://ukhas.org.uk/guides:chasing_your_flight) and ['What Not To Do'](https://ukhas.org.uk/guides:how_to_lose_your_flight) before you launch to make sure you stand the best chance of getting it back.
-
 You can track the flight in the following ways:
 
 TRACKER BOX - **link to tracker box article** will continue to decode flight data and provide you with accurate tracking.
@@ -74,5 +72,7 @@ LAPTOP WITH A DATA ROAMING WIFI DONGLE - having roaming internet connectivity wi
 ANDROID PHONE - **not sure what to put here James**
 
 HANDHELD RADIO RECEIVER - tuning the radio to the frequency your transmitter broadcasts over will allow you to hear a steady stream of bleeping that gets stronger as you get nearer the source. **what else to put here James?**
+
+It usually takes around 2-2.5 hours for a balloon to launch, ascend to maximum height, burst, descend slowly via parachute, and land. You therefore have a decent amount of time to track and retrieve your payload. It's worth reading the UKHAS guides to a [successful payload recovery](https://ukhas.org.uk/guides:chasing_your_flight) and ['What Not To Do'](https://ukhas.org.uk/guides:how_to_lose_your_flight) before you launch to make sure you stand the best chance of getting it back.
 
 Good luck with your flight and let us know how it goes!
