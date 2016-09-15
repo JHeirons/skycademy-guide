@@ -76,7 +76,7 @@ HANDHELD RADIO RECEIVER - tuning the radio to the frequency your transmitter bro
 
 It usually takes around 2-2.5 hours for a balloon to launch, ascend to maximum height, burst, descend slowly via parachute, and land. You therefore have a decent amount of time to track and retrieve your payload. It's worth reading the UKHAS guides to a [successful payload recovery](https://ukhas.org.uk/guides:chasing_your_flight) and ['What Not To Do'](https://ukhas.org.uk/guides:how_to_lose_your_flight) before you launch to make sure you stand the best chance of getting it back.
 
-While we can't tell you what to do in every eventuality, we thought it might be beneficial for you to read a couple of blog posts about recent chases we had done and what we encountered. 
+While we can't tell you what to do in every eventuality, we thought it might be beneficial for you to read a couple of blog posts about recent chases we have done and what we encountered. 
 - In this [first blog post](http://www.daveakerman.com/?p=1943), Dave Akerman's payload sets a new altitude record and lands in a field of sheep. 
 - In this [second blog post](https://www.raspberrypi.org/blog/skycademy-2016/), the balloon bursts early and lands the payload in a military firing range! 
 
