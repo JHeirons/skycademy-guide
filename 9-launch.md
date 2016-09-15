@@ -2,12 +2,12 @@
 
 Here's our walkthrough for anyone wishing to prepare for their launch. More detailed guides for certain procedures can be found in our other guides and are linked to within the text. You can also find a series of excellent articles on the UKHAS wiki.
 
-This article assumes you have already successfully assembled and tested your payload and tracking devices with your students. Visit our early guides if you need help with assembly.
+Please Note: This article assumes you have already successfully assembled and tested your payload and tracking devices with your students. Visit our early guides if you need help with assembly.
 
 
 ONE MONTH BEFORE
 
-1. Order Balloon(s)
+1. Order balloons.
 2. Get Civil Aviation Authority (CAA) permission to launch, including NOTAM - "a notice filed with an aviation authority to alert aircraft pilots of potential hazards along a flight route or at a location that could affect the safety of the flight."
 3. Confirm transport arrangements. 
 4. Confirm extra staffing needs. 
@@ -15,14 +15,13 @@ ONE MONTH BEFORE
 
 ONE WEEK BEFORE
 
-1. Order Helium.
+1. Order Helium with correct nozzle adapter **what should I put here about the adapter James?**.
 2. Complete your pre-flight calculations and measure out how much water you will need to achieve the right ascent rate for the balloon? (jump to Section 7 - Calculate Your Flight Profile for a detailed description of how to achieve this.)
-2. Make sure students and adult supervisors are clear on their different roles at the launch.
-
+3. Make sure students and adult supervisors are clear on their different roles at the launch.
 
 THE DAY BEFORE
 
-1. Check the predicted flight path at your launch time using the [CUSF Landing Predictor](http://predict.habhub.org/).
+1. Check the predicted flight path of your launch time and location using the [CUSF Landing Predictor](http://predict.habhub.org/). This will help you work out the best time to launch so that the payload lands safely on land (and not in the sea!)
 2. Charge all things that rely on battery power during launch day.
 3. Check all your components against your launch inventory list to ensure everything you need is packed for transport.
 
@@ -42,8 +41,6 @@ ON THE DAY TAKE
 
 ON ARRIVAL AT THE LAUNCH SITE
 
-In addition to the below, there is also a list of [common launch mistakes] (https://ukhas.org.uk/guides:things_not_to_do) you'll want to be thinking about as your prepare.
-
 1. Check the predicted flight path again using the [CUSF Landing Predictor](http://predict.habhub.org/). Weather in the UK is so varied, it's always best to check on the day!
 2. Contact your local Air Traffic Control (ATC) to confirm your launch window.
 3. Lay out tarpaulin and secure with tent pegs.
@@ -60,13 +57,18 @@ In addition to the below, there is also a list of [common launch mistakes] (http
 16. Do a final check to make sure you are still getting a signal.
 17. Let go of the balloon to launch!
 
+In addition to the above, there is also a list of [common launch mistakes] (https://ukhas.org.uk/guides:things_not_to_do) you'll want to be thinking about as your prepare.
 
 TRACKING THE FLIGHT
 
-The time the balloon takes to launch, ascend to maximum height, burst, descend slowly via parachute, and land is usually between 2-2.5 hours. You therefore have a decent amount of time to track the payload in the following ways:
+It usually takes around 2-2.5 hours for a balloon to launch, ascend to maximum height, burst, descend slowly via parachute, and land. You therefore have a decent amount of time to track the payload. It's worth reading UKHAS's guide to a [successful payload recovery](https://ukhas.org.uk/guides:chasing_your_flight) to make sure you stand the best chance of getting it back.
 
-TRACKER BOX - **link to article on making the tracker box** will continue to decode flight data and provide you with accurate tracking.
+You can track the flight in the following ways:
 
-LAPTOP WITH A DATA ROAMING WIFI DONGLE - having roaming internet connectivity will enable you to log on to [HABHUB] (https://tracker.habhub.org) and track your flight on a map overlay with a predicted landing point. The live predictions can change quite considerably during a flight, so you should only start to pay attention once the balloon has burst and is descending.
+TRACKER BOX - **link to tracker box article** will continue to decode flight data and provide you with accurate tracking.
 
-ANDROID PHONE - **[not sure what to put here James]**
+LAPTOP WITH A DATA ROAMING WIFI DONGLE - having roaming internet connectivity will enable you to log on to [HABHUB](https://tracker.habhub.org) and track your flight on a map overlay with a predicted landing point. The live predictions can change quite considerably during a flight, so you should only start to pay attention once the balloon has burst and is descending.
+
+ANDROID PHONE - **not sure what to put here James**
+
+HANDHELD RADIO RECEIVER - tuning the radio to the frequency your transmitter broadcasts over will allow you to hear a steady stream of bleeping that gets stronger as you get nearer the source. **what else to put here James?**  
