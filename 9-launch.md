@@ -30,7 +30,7 @@ THE DAY BEFORE
 ON THE DAY TAKE
 
 - CAA Permit
-- Telephone Numbers: ATC - local airfields, emergency services
+- Telephone Numbers: ATC - local airfields, emergency services, people in chase vehicles
 - Payload, batteries (+ spares) RADAR reflector, parachute, cutdown (+ spares)
 - Balloons, Cable ties, Cord, Duct Tape
 - Helium, regulator, filling system
@@ -38,8 +38,8 @@ ON THE DAY TAKE
 - Scales, weights/a plastic milk bottle full of water
 - Radio System: Receiver, Yagi, Stand, PC, Software, Audio-lead, Batteries (+ spares)
 - Ancillary stuff like: Table, Chairs, Sun/Rain shade
-- Recovery: GPS, long telescopic pole (for trees), string, PMR (intra recovery team comms)
-- Boots/Wet Weather clothes/Sun Hat/Suncream/Water/Food
+- Recovery: GPS, long telescopic pole (for retrieval from trees), string, Two way radio (intra recovery team comms)
+- Other: Boots, Wet weather clothes, Sun hats, Suncream, Drinking water, Food, Toilet roll
 
 ON ARRIVAL AT THE LAUNCH SITE
 
@@ -61,9 +61,9 @@ ON ARRIVAL AT THE LAUNCH SITE
 
 In addition to the above, there is also a list of [common launch mistakes] (https://ukhas.org.uk/guides:things_not_to_do) you'll want to consider as your prepare.
 
-TRACKING THE FLIGHT
+TRACKING AND RECOVERING THE FLIGHT
 
-It usually takes around 2-2.5 hours for a balloon to launch, ascend to maximum height, burst, descend slowly via parachute, and land. You therefore have a decent amount of time to track the payload. It's worth reading the UKHAS guide to a [successful payload recovery](https://ukhas.org.uk/guides:chasing_your_flight) to make sure you stand the best chance of getting it back.
+It usually takes around 2-2.5 hours for a balloon to launch, ascend to maximum height, burst, descend slowly via parachute, and land. You therefore have a decent amount of time to track the payload. It's worth reading the UKHAS guides to a [successful payload recovery](https://ukhas.org.uk/guides:chasing_your_flight) and ['What Not To Do'](https://ukhas.org.uk/guides:how_to_lose_your_flight) before you launch to make sure you stand the best chance of getting it back.
 
 You can track the flight in the following ways:
 
@@ -73,4 +73,6 @@ LAPTOP WITH A DATA ROAMING WIFI DONGLE - having roaming internet connectivity wi
 
 ANDROID PHONE - **not sure what to put here James**
 
-HANDHELD RADIO RECEIVER - tuning the radio to the frequency your transmitter broadcasts over will allow you to hear a steady stream of bleeping that gets stronger as you get nearer the source. **what else to put here James?**  
+HANDHELD RADIO RECEIVER - tuning the radio to the frequency your transmitter broadcasts over will allow you to hear a steady stream of bleeping that gets stronger as you get nearer the source. **what else to put here James?**
+
+Good luck with your flight and let us know how it goes!
