@@ -3,25 +3,25 @@
 ![what happens in a balloon flight?](1/whathappens.JPG)
 
 - A flight involves sending a lightweight payload into the upper atmosphere (not space) attached to a weather balloon
-- The balloon, filled with either Hydrogen or Helium generates the lift required to reach the upper atmosphere
-- At the apex of the flight the balloon, stretched due to decreased air pressure, will burst leaving the payload to fall back down to earth.
-- During the descent the payload is slowed by a parachute which is between the payload and the balloon
+- The balloon, filled with either Hydrogen or Helium, generates the lift required to reach the upper atmosphere
+- At the apex of the flight, the balloon, fully expanded due to decreased air pressure, will burst leaving the payload to fall back down to earth.
+- During the descent, the payload is slowed by a parachute which is between the payload and the balloon
 - You goal is to successfully launch the balloon and be at (or near) the landing site when the balloon comes down
 - The chart shows a fairly typical flight profile, rising steadily to a height of 38km and then descending fairly rapidly
 
 [![youtube video 1](1/youtubevideo1.JPG)](https://www.youtube.com/watch?v=_CPRcW4IwS0)
 
-- The video above shows a faily ideal launch in low wind conditions with the payload chain ascending at about 5 m/s
-- You can make out the balloon connected to the parachute and few metres below, further down is the box containing the payload and then right at the bottom of the line is a second tracker acting as a backup.
+- The video above shows a good launch in low wind conditions with the payload chain ascending at about 5 m/s
+- You can make out the balloon connected to the parachute and few metres below. Further down is the box containing the payload and then right at the bottom of the line is a second tracker acting as a back up.
 
 [![youtube video 1](1/youtubevideo2.JPG)](https://www.youtube.com/watch?v=PfD309zhKi0)
 
-- In the video above, you can see the moment of burst, as the balloon under pressure expands and reaches it’s limit
+- In the video above, you can see the moment of burst as the balloon expands under pressure and reaches it’s limit
 - The faint trace of the balloon after burst is the talcum powder that the balloon is covered in to prevent it sticking to itself
 
 ###Preparation
 
-There are number of steps needed in order to prepare for a launch, each are relatively straightforward, however all need to be mastered before attempting a flight:
+There are a number of steps needed in order to prepare for a launch. Each are relatively straightforward but all need to be mastered before attempting a flight:
 
 - Decide what you want to achieve
 - Decide where (away from airports, preferably with plenty of land to the east)
@@ -36,12 +36,12 @@ There are number of steps needed in order to prepare for a launch, each are rela
 
 ###Permission/NOTAM
 
-To launch a flight you will need to have permission from your local aviation authority. **You must not launch without it.**
+To launch a flight you will need permission from your local aviation authority. **You must not launch without it.**
 
-In the UK, flights must be approved by the Civil Aviation Authority who, if happy, will issue a Notice to Airman (NOTAM) which they will publish [here](http://notaminfo.com). Airfields and other airspace users are then aware and can take appropriate action to avoid your flight, they may contact you on the day with questions. A NOTAM may have restrictions to launch times / directions etc, these
+In the UK, flights must be approved by the Civil Aviation Authority who, if happy, will issue a Notice to Airman (NOTAM) which they will publish [here](http://notaminfo.com). Airfields and other airspace users are then aware and can take appropriate action to avoid your flight, they may contact you on the day with questions. A NOTAM may have restrictions to launch times, directions, etc. These
 restrictions must be observed.
 
-###NOTAM Procedure
+###NOTAM Checklist
 
 - Choose a suitable site
 - Apply 28 days in advance
@@ -55,30 +55,30 @@ restrictions must be observed.
 
 ![radio tracking](1/radiotracking.JPG)
 
-- During the the payload receives GPS data from satellites overhead
+- During the flight, the payload receives GPS data from satellites overhead
 - It then combines its location with some other data including time, temperature and a timestamp to create a sentence
-- This sentence is then transmitted using RTTY / LoRa or both down towards receivers on the ground
-- The team launching the payload receive the data and use this to follow the balloon
-- Other HAB enthusiasts use also receive the signal, provided they know about the launch
-- Anyone receiving the transmissions can upload their data to the habhub.org website, uploaded data can be seen in the logtail
+- This sentence is then transmitted using RTTY and/or LoRa down towards receivers on the ground
+- The team launching the payload receives the data and uses this to follow the balloon
+- Other HAB enthusiasts can also receive the signal if they have similar tracking equipment
+- Anyone receiving the transmissions can upload their data to the habhub.org website. Uploaded data can be seen in the logtail
 - The website collates all data and uses it to plot the payload position on a map
 - Using this distributed tracking system means that the flight isn’t dependant on a single person receiving and makes it much more likely that a flight can be tracked and recovered.
 
 ![radio frequencies](1/radiofrequencies.JPG)
 
-- The slide above illustrates the restrictions involved in transmitting a radio signal from a balloon, the tiny pink section here indicates the small proportion of the UK radio spectrum which is permitted for this use.
-- Countries around the world have different restrictions or conditions on using radio equipment at altitude, for example in the USA you need a HAM radio license in order to transmit.
+- The slide above illustrates the restrictions involved in transmitting a radio signal from a balloon. The tiny pink section here indicates the small proportion of the UK radio spectrum which is permitted for this use.
+- Countries around the world have different restrictions or conditions on using radio equipment at altitude. For example, in the USA you need a HAM radio license in order to transmit.
 - It’s important to check the local restrictions in your country before planning your flight
 
 ![flight prediction](1/flightprediction.JPG)
 
-- Before flying you will need to run predictions and simulations in order to get an idea of the likely flight path and any obstacles to your flight going ahead.
-- Obstacles might include restricted airspace, borders, landing close to a built up area, large bodies of water
+- Before flying, you will need to run predictions and simulations in order to get an idea of the likely flight path and any obstacles to your flight going ahead.
+- Obstacles might include restricted airspace, borders, built up urban areas, and large bodies of water
 
 ![summer flightpath](1/flightsummerpath.JPG)
 
-- This image shows a typical path for a flight taking place in the summer, the black and green paths being 2 different payloads
-- Often flights travel in one direction (usually east in the UK) at low altitudes and as they reach higher altitudes the wind direction can dramatically change.
+- The above image shows a typical path for a flight taking place in the summer, the black and green paths being two different payloads
+- Often flights travel in one direction (usually east in the UK) at low altitudes before changing dramatically as the wind changes at higher altitudes.
 - The shape of the path is affected by the payload mass, balloon size, volume of helium, size of parachute and time of day. It’s therefore possible to adjust a flight path by adjusting these variables.
 
 ![radio horizon](1/radiohorizon.JPG)
@@ -89,27 +89,27 @@ restrictions must be observed.
 
 ![local obstructions](1/localobstructions.JPG)
 
-- At ground level local obstacles can cause a problem, if there is no line of sight then the signal will not be received
+- At ground level, local obstacles can cause a problem. If there is no line of sight then the signal will not be received
 
 ![aerials](1/aerials.JPG)
 
-- Having an appropriate aerial in key to good reception, for HAB applications in the UK the aerial need to be able to receive 70cm transmissions.
-- The mast aerial (left) is good for a fixed receiver station
-- The Mag-mount or whiptail aerial (middle) can be magnetically fixed to the roof of a car making it ideal for chasing a payload
-- The Yagi aerial (right) is directional which can make if very useful for locating a landed payload
+- Having an appropriate aerial is key to good reception. For HAB applications in the UK, the aerial needs to be able to receive 70cm transmissions.
+- The mast aerial above (left) is good for a fixed receiver station
+- The Mag-mount or whiptail aerial (middle) can be magnetically fixed to the roof of a car, making it ideal for chasing a payload
+- The Yagi aerial (right) is directional which makes it very useful for locating a landed payload
 
 ![flight stages](1/flightstages.JPG)
 
-- The chart shows a typical flight’s change in altitude over time, the red areas (when the payload is close to the ground) are crucial.
-- At this height <500m it is unlikely that any other community receivers will be able to receive and decode data from a payload
+- The chart above shows a typical flight’s change in altitude over time, the red areas (when the payload is close to the ground) are crucial.
+- At a height of less than 500 meters, it is unlikely that any other community receivers will be able to receive and decode data from a payload
 - The aim of the launch team is to get someone to the likely landing site for the payload in order to receive the signal as it comes down and ultimately get it’s final position on the ground.
 
 ![GPS tracker](1/gpstracker.JPG)
 
-The Pi in the sky board (PITs) has all the required electronics to turn a Raspberry Pi into a flight computer (tracker) for your payload.
+The Pi In The Sky (PITS) board has all the required electronics to turn a Raspberry Pi into a flight computer (tracker) for your payload.
 
-- GPS antenna for receiving a location from the GPS network of satellites
-- Built in temperature sensor to gather some environmental data
+- A GPS antenna for receiving a location from the GPS network of satellites
+- A built in temperature sensor to gather environmental data
 - Four solder points to connect external I2C based sensors
-- Radio antenna to transmit location and sensor data back to the ground
-- Battery clip to power PITS board and the Pi
+- A Radio antenna to transmit location and sensor data back to the ground
+- A Battery clip to power the PITS board and the Pi
