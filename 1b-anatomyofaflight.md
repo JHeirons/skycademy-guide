@@ -52,3 +52,20 @@ restrictions must be observed.
 - Check the NOTAM
 - Check for restrictions
 - Check if you need to call ATC
+
+![radio tracking?](1/radiotracking.JPG)
+
+- During the the payload receives GPS data from satellites overhead
+- It then combines its location with some other data including time, temperature and a timestamp to create a sentence
+- This sentence is then transmitted using RTTY / LoRa or both down towards receivers on the ground
+- The team launching the payload receive the data and use this to follow the balloon
+- Other HAB enthusiasts use also receive the signal, provided they know about the launch
+- Anyone receiving the transmissions can upload their data to the habhub.org website, uploaded data can be seen in the logtail
+- The website collates all data and uses it to plot the payload position on a map
+- Using this distributed tracking system means that the flight isn’t dependant on a single person receiving and makes it much more likely that a flight can be tracked and recovered.
+
+![radio frequencies?](1/radiofrequencies.JPG)
+
+- The slide above illustrates the restrictions involved in transmitting a radio signal from a balloon, the tiny pink section here indicates the small proportion of the UK radio spectrum which is permitted for this use
+- Countries around the world have different restrictions or conditions on using radio equipment at altitude, for example in the USA you need a HAM radio license in order to transmit.
+- It’s important to check the local restrictions in your country before planning your flight
