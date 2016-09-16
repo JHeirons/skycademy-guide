@@ -53,7 +53,7 @@ restrictions must be observed.
 - Check for restrictions
 - Check if you need to call ATC
 
-![radio tracking?](1/radiotracking.JPG)
+![radio tracking](1/radiotracking.JPG)
 
 - During the the payload receives GPS data from satellites overhead
 - It then combines its location with some other data including time, temperature and a timestamp to create a sentence
@@ -64,8 +64,25 @@ restrictions must be observed.
 - The website collates all data and uses it to plot the payload position on a map
 - Using this distributed tracking system means that the flight isn’t dependant on a single person receiving and makes it much more likely that a flight can be tracked and recovered.
 
-![radio frequencies?](1/radiofrequencies.JPG)
+![radio frequencies](1/radiofrequencies.JPG)
 
-- The slide above illustrates the restrictions involved in transmitting a radio signal from a balloon, the tiny pink section here indicates the small proportion of the UK radio spectrum which is permitted for this use
+- The slide above illustrates the restrictions involved in transmitting a radio signal from a balloon, the tiny pink section here indicates the small proportion of the UK radio spectrum which is permitted for this use.
 - Countries around the world have different restrictions or conditions on using radio equipment at altitude, for example in the USA you need a HAM radio license in order to transmit.
 - It’s important to check the local restrictions in your country before planning your flight
+
+![flight prediction](1/flightprediction.JPG)
+
+- Before flying you will need to run predictions and simulations in order to get an idea of the likely flight path and any obstacles to your flight going ahead.
+- Obstacles might include restricted airspace, borders, landing close to a built up area, large bodies of water
+
+![summer flightpath](1/flightsummerpath.JPG)
+
+- This image shows a typical path for a flight taking place in the summer, the black and green paths being 2 different payloads
+- Often flights travel in one direction (usually east in the UK) at low altitudes and as they reach higher altitudes the wind direction can dramatically change.
+- The shape of the path is affected by the payload mass, balloon size, volume of helium, size of parachute and time of day. It’s therefore possible to adjust a flight path by adjusting these variables.
+
+![radio horizon](1/radiohorizon.JPG)
+
+- Radio waves travel in straight lines and need line of sight for the signal to be received
+- At low altitudes the payload has a small range, however the higher it goes the larger the range becomes
+- This means that at low altitude very few people will be in range (only those beneath the payload) whilst at high altitude there could a large number of people picking up the signal.
