@@ -28,4 +28,16 @@ During a flight, a balloon’s payload also tracks its position and time, plus a
 
 ![google maps flight path](1/googlemapsflightpath.png)
 
+###Flight Tracking
 
+During most flights, the launch team are reliant on the wider Ballooning community to help them track their payload whilst in flight. A great way of supporting a flight is to track the payload using receiver equipment and sharing the telemetry data online.
+
+###RTTY
+
+Most flights transmit data using a mechanism known as Radio Teletype (RTTY). The RTTY signal needs to be converted to something audible using a radio. This audio signal then needs to be decoded using a piece of software which generates a data sentence consisting of the position of the payload plus other data.
+
+![rtty signal path](1/rttysequence.png)
+
+There are a number of ways of combining different equipment together to be able to decode RTTY sentences. For more information on suitable kit and how to combine them, you can follow guides at:
+-[UKHAS](https://ukhas.org.uk/guides:tracking_guide)
+-[Project Horus](http://projecthorus.org/index.php/tracking/)
