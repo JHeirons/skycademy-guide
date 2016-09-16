@@ -41,3 +41,12 @@ Most flights transmit data using a mechanism known as Radio Teletype (RTTY). The
 There are a number of ways of combining different equipment together to be able to decode RTTY sentences. For more information on suitable kit and how to combine them, you can follow guides at:
 - [UKHAS](https://ukhas.org.uk/guides:tracking_guide)
 - [Project Horus](http://projecthorus.org/index.php/tracking/)
+
+###LORA
+
+Some payloads utilise the Long Range (LoRa) network mechanism which transmits the same data as RTTY but abstracts the decoding. As long as your LoRa receiver (gateway) is tuned to the correct frequency, it will receive and decode telemetry data from a payload.
+
+![lora signal path](1/lorasequence.png)
+
+
+
