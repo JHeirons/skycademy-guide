@@ -1,19 +1,7 @@
-# 1. Participate
-## Hello World
+# 1. Participate in a High Altitude Balloon Launch
 
-1. First item
-1. Second item
-9. Third item
+A great way to find out what’s involved in a High Altitude Balloon flight is to take part. While no part of a flight is hugely complicated, there are many aspects to manage at once. Taking part can help make these aspects clearer without having to plan and run your own launch.
 
-  and some explanation of the point
+###Following flights online
 
-10. continued numbering
-
-- item 1
-- item 2
-- item 3
-
-[This is a link](http://www.raspberrypi.org)
-![Logo](1/raspberry-pi-logo-212x250.png)
-
-`code`
+There are frequent launches taking place all over the world and many of them track their progress through the tracking website [tracker.habhub.org](tracker.habhub.org) (shown below). Their tools allow you to look for upcoming launches and follow active flights.
