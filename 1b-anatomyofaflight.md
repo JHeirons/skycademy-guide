@@ -86,3 +86,30 @@ restrictions must be observed.
 - Radio waves travel in straight lines and need line of sight for the signal to be received
 - At low altitudes the payload has a small range, however the higher it goes the larger the range becomes
 - This means that at low altitude very few people will be in range (only those beneath the payload) whilst at high altitude there could a large number of people picking up the signal.
+
+![local obstructions](1/localobstructions.JPG)
+
+- At ground level local obstacles can cause a problem, if there is no line of sight then the signal will not be received
+
+![aerials](1/aerials.JPG)
+
+- Having an appropriate aerial in key to good reception, for HAB applications in the UK the aerial need to be able to receive 70cm transmissions.
+- The mast aerial (left) is good for a fixed receiver station
+- The Mag-mount or whiptail aerial (middle) can be magnetically fixed to the roof of a car making it ideal for chasing a payload
+- The Yagi aerial (right) is directional which can make if very useful for locating a landed payload
+
+![flight stages](1/flightstages.JPG)
+
+- The chart shows a typical flight’s change in altitude over time, the red areas (when the payload is close to the ground) are crucial.
+- At this height <500m it is unlikely that any other community receivers will be able to receive and decode data from a payload
+- The aim of the launch team is to get someone to the likely landing site for the payload in order to receive the signal as it comes down and ultimately get it’s final position on the ground.
+
+![GPS tracker](1/gpstracker.JPG)
+
+The Pi in the sky board (PITs) has all the required electronics to turn a Raspberry Pi into a flight computer (tracker) for your payload.
+
+- GPS antenna for receiving a location from the GPS network of satellites
+- Built in temperature sensor to gather some environmental data
+- Four solder points to connect external I2C based sensors
+- Radio antenna to transmit location and sensor data back to the ground
+- Battery clip to power PITS board and the Pi
