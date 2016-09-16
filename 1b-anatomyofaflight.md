@@ -14,3 +14,4 @@
 - The video shows a faily ideal launch in low wind conditions with the payload chain ascending at about 5 m/s
 - You can make out the balloon connected to the parachute and few metres below, further down is the box containing the payload and then right at the bottom of the line is a second tracker acting as a backup.
 
+[![youtube video 1](1/youtubevideo2.JPG)](https://www.youtube.com/watch?v=_PfD309zhKi0)
