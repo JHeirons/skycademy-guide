@@ -39,5 +39,5 @@ Most flights transmit data using a mechanism known as Radio Teletype (RTTY). The
 ![rtty signal path](1/rttysequence.png)
 
 There are a number of ways of combining different equipment together to be able to decode RTTY sentences. For more information on suitable kit and how to combine them, you can follow guides at:
--[UKHAS](https://ukhas.org.uk/guides:tracking_guide)
--[Project Horus](http://projecthorus.org/index.php/tracking/)
+- [UKHAS](https://ukhas.org.uk/guides:tracking_guide)
+- [Project Horus](http://projecthorus.org/index.php/tracking/)
