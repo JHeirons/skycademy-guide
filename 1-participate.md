@@ -20,7 +20,12 @@ During a flight, a balloon’s payload also tracks its position and time, plus a
 
 ![habhub habitat page](1/habhubhabitat.png)
 
-CSV files can be imported into a spreadsheet program to analyse and create charts showing changes during the flight. Here’s one showing temperature changes over time.
+**CSV** files can be imported into a spreadsheet program to analyse and create charts showing changes during the flight. Here’s one showing temperature changes over time.
 
 ![temperature chart](1/tempchart.png)
+
+**KML** files can be used by [Google Maps](https://www.google.com/maps/d/?hl=en&authuser=0&action=open)/Google Earth to create 2D and 3D paths and even turned into animations.
+
+![google maps flight path](1/googlemapsflightpath.png)
+
 
