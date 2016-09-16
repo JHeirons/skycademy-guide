@@ -9,7 +9,7 @@
 - You goal is to successfully launch the balloon and be at (or near) the landing site when the balloon comes down
 - The chart shows a fairly typical flight profile, rising steadily to a height of 38km and then descending fairly rapidly
 
-[![youtube video 1](https://img.youtube.com/vi/_CPRcW4IwS0/0.jpg)](https://www.youtube.com/watch?v=_CPRcW4IwS0)
+[![youtube video 1](1/youtubevideo1.JPG)](https://www.youtube.com/watch?v=_CPRcW4IwS0)
 
-
+https://img.youtube.com/vi/_CPRcW4IwS0/0.jpg
 
