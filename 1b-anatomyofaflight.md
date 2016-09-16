@@ -1,1 +1,1 @@
-![anatomy of a flight](1/anatomyofaflight.jpg)
+![anatomy of a flight](1/anatomyofaflight.jpeg)
