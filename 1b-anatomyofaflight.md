@@ -11,7 +11,44 @@
 
 [![youtube video 1](1/youtubevideo1.JPG)](https://www.youtube.com/watch?v=_CPRcW4IwS0)
 
-- The video shows a faily ideal launch in low wind conditions with the payload chain ascending at about 5 m/s
+- The video above shows a faily ideal launch in low wind conditions with the payload chain ascending at about 5 m/s
 - You can make out the balloon connected to the parachute and few metres below, further down is the box containing the payload and then right at the bottom of the line is a second tracker acting as a backup.
 
 [![youtube video 1](1/youtubevideo2.JPG)](https://www.youtube.com/watch?v=PfD309zhKi0)
+
+- In the video above, you can see the moment of burst, as the balloon under pressure expands and reaches it’s limit
+- The faint trace of the balloon after burst is the talcum powder that the balloon is covered in to prevent it sticking to itself
+
+###Preparation
+
+There are number of steps needed in order to prepare for a launch, each are relatively straightforward, however all need to be mastered before attempting a flight:
+
+- Decide what you want to achieve
+- Decide where (away from airports, preferably with plenty of land to the east)
+- Permission (from CAA and from landowner)
+- Construction and setup - tracker, payload container
+- Testing (especially the tracking)
+- Predictions - where it’s likely to land, launch winds and weather
+- Confirm permission request
+- Flight announcements - get the HAB community to help
+- Fill and Launch
+- Chase
+
+###Permission/NOTAM
+
+To launch a flight you will need to have permission from your local aviation authority. **You must not launch without it.**
+
+In the UK, flights must be approved by the Civil Aviation Authority who, if happy, will issue a Notice to Airman (NOTAM) which they will publish [here](http://notaminfo.com). Airfields and other airspace users are then aware and can take appropriate action to avoid your flight, they may contact you on the day with questions. A NOTAM may have restrictions to launch times / directions etc, these
+restrictions must be observed.
+
+###NOTAM Procedure
+
+- Choose a suitable site
+- Apply 28 days in advance
+- Request multiple days
+- Call to check a few days before launch
+- Cancel/change dates as necessary
+- Check the permission
+- Check the NOTAM
+- Check for restrictions
+- Check if you need to call ATC
