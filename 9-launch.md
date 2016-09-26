@@ -7,21 +7,22 @@ Here's our walkthrough for anyone wishing to prepare for their launch. More deta
 Please Note: This article assumes you have already successfully assembled and tested your payload and tracking devices. Visit our earlier guides if you need help with assembly.
 
 
-###One Month Before
+## One Month Before
 
 1. Order balloons.
 2. Get Civil Aviation Authority (CAA) permission to launch, including NOTAM - "a notice filed with an aviation authority to alert aircraft pilots of potential hazards along a flight route or at a location that could affect the safety of the flight."
-3. Confirm transport arrangements. 
-4. Confirm extra staffing needs. 
+3. Confirm transport arrangements.
+4. Confirm extra staffing needs.
 5. Complete an offsite risk assessment.
 
-###One Week Before 
+## One Week Before
 
-1. Order Helium with correct nozzle adapter **what should I put here about the adapter James?**.
-2. Complete your pre-flight calculations and measure out how much water you will need to achieve the right ascent rate for the balloon. (jump to Section 7 - Calculate Your Flight Profile for a detailed description of how to achieve this.)
+1. Order Helium with correct filling adapter, the adapt should look like the images below and is usually referred to as ____________.
+2. Repeat your pre-flight calculations to achieve the right ascent rate for your balloon.
 3. Make sure students and adult supervisors are clear on their different roles at the launch.
+4. Continue to check the flight predictions each day monitoring for any changes. Be prepared to change your plans if needed.
 
-###The Day Before
+## The Day Before
 
 1. Check the predicted flight path of your launch time and location using the [CUSF Landing Predictor](http://predict.habhub.org/). This will help you work out the best time to launch so that the payload lands safely on land (and not in the sea!)
 2. Charge all things that rely on battery power during launch day.
@@ -29,19 +30,19 @@ Please Note: This article assumes you have already successfully assembled and te
 
 ###To Take On The Day
 
-- CAA Permit
+- CAA Notam
 - Telephone Numbers: ATC - local airfields, emergency services, people in chase vehicles
-- Payload, batteries (+ spares) RADAR reflector, parachute, cutdown (+ spares)
+- Payload, batteries (+ spares) RADAR reflector, parachute
 - Balloons, Cable ties, Cord, Duct Tape
 - Helium, regulator, filling system
-- Tools inc. Spanners set up filling system
+- Tools inc. spanners, snips
 - Scales, weights/a plastic milk bottle full of water
 - Radio System: Receiver, Yagi, Stand, PC, Software, Audio-lead, Batteries (+ spares)
 - Ancillary stuff like: Table, Chairs, Sun/Rain shade
 - Recovery: GPS, long telescopic pole (for retrieval from trees), string, Two way radio (intra recovery team comms)
 - Other: Boots, Wet weather clothes, Sun hats, Suncream, Drinking water, Food, Toilet roll
 
-###On Arrival At The Launch Site 
+## On Arrival At The Launch Site
 
 1. Check the predicted flight path again using the [CUSF Landing Predictor](http://predict.habhub.org/). Weather in the UK is so varied, it's always best to check on the day!
 2. Contact your local Air Traffic Control (ATC) to confirm your launch window.
@@ -62,26 +63,14 @@ Please Note: This article assumes you have already successfully assembled and te
 
 ![launching a balloon](9/launch.jpg)
 
-###Tracking The Flight
-
-You can track the flight in the following ways:
-
-TRACKER BOX - **link to tracker box article** will continue to decode flight data and provide you with accurate tracking.
-
-LAPTOP WITH A DATA ROAMING WIFI DONGLE - having roaming internet connectivity will enable you to log on to [HABHUB](https://tracker.habhub.org) and track your flight on a map overlay with a predicted landing point. The live predictions can change quite considerably during a flight, so you should only start to pay attention once the balloon has burst and is descending.
-
-ANDROID PHONE - **not sure what to put here James**
-
-HANDHELD RADIO RECEIVER - tuning the radio to the frequency your transmitter broadcasts over will allow you to hear a steady stream of bleeping that gets stronger as you get nearer the source. **what else to put here James?**
-
-###Chasing and Payload Recovery
+## Chasing and Payload Recovery
 
 It usually takes around 2-2.5 hours for a balloon to launch, reach maximum height, burst, descend slowly via parachute, and land. You therefore have a decent amount of time to track and retrieve your payload. It's worth reading the UKHAS guides to a [successful payload recovery](https://ukhas.org.uk/guides:chasing_your_flight) and ['What Not To Do'](https://ukhas.org.uk/guides:how_to_lose_your_flight) before you launch to make sure you stand the best chance of getting it back.
 
 ![balloon burst](9/balloonburst.png)
 
-While we can't tell you what to do in every eventuality, we thought it might be beneficial for you to read a couple of blog posts about recent chases we have done and what we encountered. 
-- In this [first blog post](http://www.daveakerman.com/?p=1943), Dave Akerman's payload sets a new altitude record and lands in a field of sheep. 
-- In this [second blog post](https://www.raspberrypi.org/blog/skycademy-2016/), the balloon bursts early and lands the payload in a military firing range! 
+While we can't tell you what to do in every eventuality, we thought it might be beneficial for you to read a couple of blog posts about recent chases we have done and what we encountered.
+- In this [first blog post](http://www.daveakerman.com/?p=1943), Dave Akerman's payload sets a new altitude record and lands in a field of sheep.
+- In this [second blog post](https://www.raspberrypi.org/blog/skycademy-2016/), the balloon bursts early and lands the payload in a military firing range!
 
 Good luck with your flight and let us know how it goes!

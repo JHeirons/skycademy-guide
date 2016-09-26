@@ -2,7 +2,7 @@
 
 Before you begin planning a flight it's important to understand what's involved, below is an overview of what happens during a balloon flight.
 
-## Overview 
+## Overview
 ![what happens in a balloon flight?](1/whathappens.JPG)
 
 - A flight involves sending a lightweight payload into the upper atmosphere (not space) attached to a weather balloon
@@ -11,6 +11,10 @@ Before you begin planning a flight it's important to understand what's involved,
 - During the descent, the payload is slowed by a parachute which is between the payload and the balloon
 - You goal is to successfully launch the balloon and be at (or near) the landing site when the balloon comes down
 - The chart shows a fairly typical flight profile, rising steadily to a height of 38km and then descending fairly rapidly
+
+## Permission to launch
+
+## Flight Predictions
 
 ## Launch
 [![youtube video 1](1/youtubevideo1.JPG)](https://www.youtube.com/watch?v=_CPRcW4IwS0)
@@ -36,12 +40,6 @@ Before you begin planning a flight it's important to understand what's involved,
 - Anyone receiving the transmissions can upload their data to the habhub.org website. Uploaded data can be seen in the logtail
 - The website collates all data and uses it to plot the payload position on a map
 - Using this distributed tracking system means that the flight isn’t dependant on a single person receiving and makes it much more likely that a flight can be tracked and recovered.
-
-![radio frequencies](1/radiofrequencies.JPG)
-
-- The slide above illustrates the restrictions involved in transmitting a radio signal from a balloon. The tiny pink section here indicates the small proportion of the UK radio spectrum which is permitted for this use.
-- Countries around the world have different restrictions or conditions on using radio equipment at altitude. For example, in the USA you need a HAM radio license in order to transmit.
-- It’s important to check the local restrictions in your country before planning your flight
 
 ###Preparation
 
