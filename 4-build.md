@@ -43,7 +43,7 @@ When your kit arrives, check you have the components pictured below. You will al
 
 ![Add the LoRa board](4/image6.JPG)
 
-**8.** The final stack. You can now attach the GPS antenna to the left input of your Pi In The Sky board and the battery pack (also in to the Pi In The Sky board).
+**8.** The final stack. You can now attach the GPS antenna to the left input of your Pi In The Sky board, and the battery pack in to the white input of your Pi In The Sky board (pictured centre).
 
 ![Add the LoRa board](4/image8.JPG)
 
