@@ -43,7 +43,7 @@ case "$rev" in
             ;;
 esac
 
-read -rp $'\n\nDo you want to enable the camera? [Y,n]' choice 
+read -rp $'\n\nDo you want to enable the Raspberry Pi camera? [Y,n]' choice 
 case $choice in  
   n|N) ;;
   *) sudo raspi-config nonint do_camera 0 ;; 
