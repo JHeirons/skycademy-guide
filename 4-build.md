@@ -15,7 +15,7 @@ When your kit arrives, check you have the components pictured below. You will al
 
 ![Pi In The Sky Kit](4/stack1.jpg)
 
-**1.** Start by screwing the two stand offs in to the A+ board. 
+**1.** Start by screwing the two stand offs in to the A+ board.
 
 ![Screwing in stand off](4/image1.JPG)
 
@@ -66,24 +66,26 @@ You'll need to install the Software that controls the PITS board and all of it's
   - This will download and run the install script, which will first perform an update before asking you a number of setup questions.
     1. Do you want to enable the Raspberry Pi camera?
 
-    ![](4/picamera.png)
+      ![](https://github.com/raspberrypilearning/components/blob/master/components/camera.png)
 
-    *This enables the Raspberry Pi camera in order to capture images during the flight. If you have a camera module and are planning to use it you should answer* **Y**.
+      *This enables the Raspberry Pi camera in order to capture images during the flight. If you have a camera module and are planning to use it you should answer* **Y**.
     1. Are you using a Lora board?
 
-    ![](4/lorabaord.jpg)
+      ![](4/lorabaord.jpg)
 
-    *If you are using a LORA board to transmit data then say* **Y** *here. This will enable the SPI protocol which is used by the LORA board.*
+      *If you are using a LORA board to transmit data then say* **Y** *here. This will enable the SPI protocol which is used by the LORA board.*
+
     1. Do you want to enable the I2C protocol?
 
-    ![](4/I2C.jpg)
+      ![](4/i2c.jpg)
 
-    *If you are planning to connect extra sensors to the PITs board via the I2C connectors, then select* **Y** *here. Most people will select* **N**.
+      *If you are planning to connect [extra sensors](http://www.pi-in-the-sky.com/index.php?id=adding-a-pressure-sensor) to the PITs board via the I2C connectors, then select* **Y** *here. Most people will select* **N**.
+
     1. Are you you using a USB Webcam?
 
-    ![](4/webcam.jpg)
+      ![](4/webcam.png)
 
-    *There are some USB webcamera that can be connected to the Raspberry Pi and used to capture stills and video. Selecting* **Y** *here installs the fswebcam module. Most people will select* **N**.
+      *There are some USB webcamera that can be connected to the Raspberry Pi and used to capture stills and video. Selecting* **Y** *here installs the fswebcam module. Most people will select* **N**.
 
   - Once you've answered the questions, the script will then continue to install the software and end with the "Install Complete" message.
   - The next time the Raspberry Pi reboots the PITs software will start and and begin transmitting using the default settings.
