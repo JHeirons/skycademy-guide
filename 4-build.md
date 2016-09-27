@@ -31,7 +31,7 @@ When your kit arrives, check you have the components pictured below. You will al
 
 ![Add the pin in the sky board](4/stack3.jpg)
 
-**5.** Pull the Picamera ribbon through the slot, screw the Male to Female standoffs in the original standoffs and slide the remaining pin extender on the exposed pins.
+**5.** Pull the Picamera ribbon through the slot, screw the Male to Female standoffs in to the original standoffs, and slide the remaining pin extender on the exposed pins.
 
 ![Add the camera ribbon](4/image4.JPG)
 
