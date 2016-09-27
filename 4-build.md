@@ -15,7 +15,7 @@ When your kit arrives, check you have the components pictured below. You will al
 
 ![Pi In The Sky Kit](4/stack1.jpg)
 
-**Fig. 1.** Start by screwing 2 stand offs in to the A+ board. 
+**Fig. 1.** Start by screwing the two stand offs in to the A+ board. 
 
 ![Screwing in stand off](4/image1.JPG)
 
