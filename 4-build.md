@@ -11,11 +11,9 @@
 
 This guide shows you how to assemble a RTTY and LoRa board stack using the [Pi In The Sky kit](https://store.uputronics.com/index.php?route=product/product&path=62&product_id=52). You'll need a crosshead screwdriver for assembly.
 
-When your kit arrives, check you have the components pictured below: 
+When your kit arrives, check you have the components pictured below. You will also get a GPS antenna and battery pack in your kit (not pictured).
 
 ![Pi In The Sky Kit](4/stack1.jpg)
-
-You will also need (pics for Picamera, black dongle and battery pack)
 
 **Fig. 1.** Start by screwing 2 stand offs in to the A+ board. 
 
