@@ -23,11 +23,21 @@ You will also need (pics for Picamera, black dongle and battery pack)
 
 **Fig. 2.** Push the 10mm GPIO pin extender on to the A+ board's pins.
 
-![Pi In The Sky Kit](4/stack2.jpg)
+![Add the pin extender](4/stack2.jpg)
 
-**Fig. 3.** Unclip the head of the Picamera and Plug in the other end to the A+ board's camera port. We are unclipping the head so the Picamera ribbon can be threaded through the stacked boards. We can re-attach the head later. The ribbon's blue tab should be facing the USB ports.
+**Fig. 3.** Unclip the head of the Picamera and clip the other end in to the A+ board's camera port. We unclip the head so the Picamera ribbon can be threaded through the stacked boards. We can re-attach the head later. The ribbon's blue tab should be facing the USB port.
 
-![Pi In The Sky Kit](4/image2.JPG)
+![Add the camera ribbon](4/image2.JPG)
+
+**Fig. 4.** Slide the Pi In The Sky board gently down on to the pin extender.
+
+![Add the pin in the sky board](4/stack3.jpg)
+
+**Fig. 5.** Pull the Picamera ribbon through the slot, screw the Male to Female standoffs in the original standoffs and slide the remaining pin extender on the exposed pins.
+
+![Add the camera ribbon](4/image4.JPG)
+
+
 
 ## Software Installation
 
