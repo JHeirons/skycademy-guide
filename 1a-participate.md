@@ -49,5 +49,3 @@ Some payloads utilise the Long Range (LoRa) network mechanism which transmits th
 ![lora signal path](1/lorasequence.png)
 
 The easiest way to build a LoRa gateway is with a Raspberry Pi and a Lora Hat. This will cost approximately £80 and you can find instructions at: [http://www.pi-in-the-sky.com/index.php?id=making-a-lora-gateway](http://www.pi-in-the-sky.com/index.php?id=making-a-lora-gateway).
-
-

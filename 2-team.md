@@ -2,40 +2,62 @@
 
 ![Team Photo](2/teamphoto.jpg)
 
-Once you've decided to launch a High Altitude Balloon, you'll need to assemble a crew of people who will help you on your epic quest to rule the skies. Here's our concise guide to team building:
+High Altitude Ballooning is a rewarding but challenging project to undertake with many different aspects to master. Having the right team can be crucial to success, as each team member can take responsibility for key parts of the work. There are a range of roles that others can take on board including students, adults, sponsors and the wider community. Here's our concise guide to team building:
 
-**1. Colleagues** Start by talking to your colleagues and finding out who is interested in assisting at your launches. You're going to need people who can:
-  - advise and help others with a similar level of knowledge to you about how a launch works
-  - drive groups of people to different sites while launching, tracking and retrieving your flights
-  - potentially provide first aid 
-  
-TO DO:
-Invite your colleagues to a show and tell session to explain what High Altitude Ballooning is. Use our What Is High Altitude Ballooning? slideshow as a starting point.
+## Students
 
-**2. Students** Your students are ultimately going to be the ones who benefit the most from participating in the flight. For larger cohorts, it becomes essential to assign groups of people to different roles. Typical roles are:
-  - Payload Makers who concentrate on assembling and testing the payload equipment
-  - Tracker Makers who concentrate on assembling and testing the tracking equipment
-  - Launch Makers who focus on carrying out all the pre-flight checks, measurements and assembly of the balloon kit on launch day
+Your students are ultimately going to be the ones running the flight. It's really helpful to assign roles to each member of the team giving them responsibility and sharing the work. Some roles you might consider:
+  - Flight modelers : responsible for running flight predictions for each possible launch site looking for launch windows and potential hazards.
+  - Tracker assembly : responsible for building, configuring and troubleshooting the tracker (flight unit)
+  - Decoders : these team members have the job of receiving the transmissions from the flight unit and getting them decoded into meaningful data.
+  - Online team : this part of the team have the job of getting data and images from the flight unit online. Creating payload and flight documentation to get their paylaod on the map.
+  - Payload design : The flight unit needs to be protected during flight, these team members need to design a case to protect and carry their project during the flight.
+  - Testing : There are so many parts of the project to test and keep testing that this has to be part of everyone's role.
+  - Communications : Your team should share their progress with the world through blogging, social media, school assemblies, local radio.
 
-TO DO:
-Make a list of tasks to complete and allocate groups of students to them.
+*Actions :*
+Recruit your student team and identify what roles you needs and what skills and interests they have.
 
-**3. Transport** You'll need a safe way of transporting people to and from your launches. Some schools/organisations have their own minibus to use, but you may want to hire a coach or get several volunteer drivers to ferry people around. 
+## Colleagues
 
-TO DO:
+Start by talking to your colleagues and finding out who is interested in assisting at your launches. It's helpful to have people to help with any or all of the following:
+  - advise and help others about how a launch works
+  - provide support with the different technical challenges of launching the flight
+  - help organising other members of your team
+  - help provide a cross curricular perspective of the launch and plan activities
+  - help with transport, eg the school minibus
+
+*Actions :*
+Invite your colleagues to a show and tell session to explain what High Altitude Ballooning is. Use our ["What Is High Altitude Ballooning?"]() slideshow as a starting point.
+
+
+## Transport
+You'll need a safe way of transporting people to and from your launches. Some schools/organisations have their own minibus to use, but you may want to hire a coach or get several volunteer drivers to ferry people around.
+
+*Actions :*
 Work out the travel logistics and personnel for getting to a launch site, tracking a payload, retrieving a payload and returning home.
 
-**4. Trackers** For a launch to be successful, you will be relying on both yours and the wider High Altitude Ballooning community's ability to help you track your position in the sky in real time. It's a good idea to involve:
-  - Your local HAM radio group - tap in to local expertise by finding other local radio enthusiasts. The Radio Society of Great Britain have a useful [Club Finder](https://thersgb.org/services/clubfinder/) on their website. They'll probably be only too happy to offer assistance on the day!
-  - The wider HAB community. When you submit your flight documents, they community will also be able to track your flight through [HABHUB.org](http://habhub.org/). This will happen automatically and will be very helpful during your flight.
-  
-TO DO:
-Log on to HABHUB and track a couple of other launches to understand how people monitor flights. Find your local, friendly, HAM radio expert.  
-  
-**5. Sponsors** Launching a balloon involves a fair amount of kit. You might want to consider getting a local business to sponsor the launches to shift the cost away from your school/organisation.
+## Wider Community
 
-TO DO:
+For a flight to be successfully recovered, you should engage the wider community. If they know about your flight they can help you track your payload's position in the sky in real time. It's a good idea to involve:
+  - Your local HAM radio group - tap in to local expertise by finding other local radio enthusiasts. The Radio Society of Great Britain have a useful [Club Finder](https://thersgb.org/services/clubfinder/) on their website. They'll probably be only too happy to offer assistance on the day!
+  - The wider HAB community. When you submit your flight documents, their community will also be able to track your flight through [HABHUB.org](h**Students**
+
+*Actions :*
+- Visit the use the [tracker](tracker.habhub.org) from the [habhub](habhub.org) website and track a couple of other launches to understand how people monitor flights.
+- Find your local, friendly, HAM radio expert.  
+
+## Sponsors
+
+Launching a balloon involves a fair amount of kit. You might want to consider getting a local business to sponsor the launches to shift the cost away from your school/organisation.
+
+*Actions :*
 Research local businesses you can partner with for launch sponsorship.
 
-**6. Tech Support** No team is complete without someone who has a deep technical knowledge of the kit and who can help you troubleshoot problems. Dave Akerman is Skycademy's technical lead and the developer of the software that runs on the Pi-In-The-Sky or PITS board. You can find lots of useful information on his [website](http://www.daveakerman.com/).   
+## Tech Support
 
+Sometimes you'll need to someone on hand to help troubleshoot particular problems. There are a number of people out there who can help, usually twitter is the best way to make contact.
+
+  - HAB communities such as [#ukhas](https://twitter.com/search?q=%23ukhas&src=typd) or [#skycademy](https://twitter.com/search?q=%23skycademy&src=typd) are great networks to connect with for techical help. 
+  - [James Robinson](https://twitter.com/legojames) leads leads the Skycademy project for the Raspberry Pi Foundation.
+  - [Dave Akerman](https://twitter.com/daveake) has completed many launches and authors the software for the [Pi in the Sky](http://www.pi-in-the-sky.com/) board. You can contact him on Twitter or visit his [website](www.daveakerman.com).

@@ -1,5 +1,8 @@
-![anatomy of a flight](1/anatomyofaflight.JPG)
+# Anatomy of a flight
 
+Before you begin planning a flight it's important to understand what's involved, below is an overview of what happens during a balloon flight.
+
+## Overview
 ![what happens in a balloon flight?](1/whathappens.JPG)
 
 - A flight involves sending a lightweight payload into the upper atmosphere (not space) attached to a weather balloon
@@ -9,15 +12,34 @@
 - You goal is to successfully launch the balloon and be at (or near) the landing site when the balloon comes down
 - The chart shows a fairly typical flight profile, rising steadily to a height of 38km and then descending fairly rapidly
 
+## Permission to launch
+
+## Flight Predictions
+
+## Launch
 [![youtube video 1](1/youtubevideo1.JPG)](https://www.youtube.com/watch?v=_CPRcW4IwS0)
 
 - The video above shows a good launch in low wind conditions with the payload chain ascending at about 5 m/s
 - You can make out the balloon connected to the parachute and few metres below. Further down is the box containing the payload and then right at the bottom of the line is a second tracker acting as a back up.
 
+## Burst
 [![youtube video 1](1/youtubevideo2.JPG)](https://www.youtube.com/watch?v=PfD309zhKi0)
 
 - In the video above, you can see the moment of burst as the balloon expands under pressure and reaches it’s limit
 - The faint trace of the balloon after burst is the talcum powder that the balloon is covered in to prevent it sticking to itself
+
+## Tracking
+
+![radio tracking](1/radiotracking.JPG)
+
+- During the flight, the payload receives GPS data from satellites overhead
+- It then combines its location with some other data including time, temperature and a timestamp to create a sentence
+- This sentence is then transmitted using RTTY and/or LoRa down towards receivers on the ground
+- The team launching the payload receives the data and uses this to follow the balloon
+- Other HAB enthusiasts can also receive the signal if they have similar tracking equipment
+- Anyone receiving the transmissions can upload their data to the habhub.org website. Uploaded data can be seen in the logtail
+- The website collates all data and uses it to plot the payload position on a map
+- Using this distributed tracking system means that the flight isn’t dependant on a single person receiving and makes it much more likely that a flight can be tracked and recovered.
 
 ###Preparation
 
@@ -33,6 +55,8 @@ There are a number of steps needed in order to prepare for a launch. Each are re
 - Flight announcements - get the HAB community to help
 - Fill and Launch
 - Chase
+
+
 
 ###Permission/NOTAM
 
@@ -53,6 +77,8 @@ restrictions must be observed.
 - Check for restrictions
 - Check if you need to call ATC
 
+
+
 ![radio tracking](1/radiotracking.JPG)
 
 - During the flight, the payload receives GPS data from satellites overhead
@@ -69,11 +95,6 @@ restrictions must be observed.
 - The slide above illustrates the restrictions involved in transmitting a radio signal from a balloon. The tiny pink section here indicates the small proportion of the UK radio spectrum which is permitted for this use.
 - Countries around the world have different restrictions or conditions on using radio equipment at altitude. For example, in the USA you need a HAM radio license in order to transmit.
 - It’s important to check the local restrictions in your country before planning your flight
-
-![flight prediction](1/flightprediction.JPG)
-
-- Before flying, you will need to run predictions and simulations in order to get an idea of the likely flight path and any obstacles to your flight going ahead.
-- Obstacles might include restricted airspace, borders, built up urban areas, and large bodies of water
 
 ![summer flightpath](1/flightsummerpath.JPG)
 
