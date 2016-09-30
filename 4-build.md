@@ -1,11 +1,47 @@
 # 4. Build a flight unit
 
-## PITS overview
+http://www.postscapes.com/long-range-wireless-iot-protocol-lora/
+https://en.wikipedia.org/wiki/Radioteletype
+
+
+## Pi In The Sky overview
+Pi In the Sky (PITS) is composed of one or more add-on board for the Raspberry Pi.
+
+![PITSplus](4/pitsplus.jpg)
+
+The basic board contains a GPS receiver allowing to to accurately detect it's longitude, latitude and altitude. It also contains a UHF radio transmitter, so that it can broadcast that data (and any other data you like) back to the ground.
 
 ## Transmission Mechanisms
+
+The radio transmitter on the PITS boards will broadcast radio waves that can be picked up by a radio receiver on the ground. The receiver and transmitter have no way of 'understanding' the data that is being passed between them, they simply handle the physics of turning digital signals into radio waves and vice versa. Extar hardware is needed, attached to both the receiver and transmitter, to translate those signals into meaningful data. For this to be successful, both computers need to use the same communication protocol. You can think of a protocol as being analogous to a language. For two humans to communicate with each other, they need to be speaking the same language. For the computers to speak to each other via radio, they need to be using the same communication protocol.
+
+The two most popular protocols used in High Altitude Ballooning or Radioteletype (RTTY) and Long Range (LoRa). Both of these communication protocols are handled by software installed on the respective computers.
+
 ### RTTY
+
+The basic PITs board uses the RTTY protocol, which was originally used to allow "dumb" electronic teletype machines to be able to communicate with large mainframe computers, meaning computer operators would not have to be in the same room or building as the computer itself. Teletype machines were made obsolete as personal computers became popular.
+
+![rtty-terminal](4/rtty-terminal)
+By <a href="//commons.wikimedia.org/wiki/User:Ulli1105" class="mw-redirect" title="User:Ulli1105">Ulli1105</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="http://creativecommons.org/licenses/by/3.0" title="Creative Commons Attribution 3.0">CC BY 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=10185467">https://commons.wikimedia.org/w/index.php?curid=10185467</a>
+
+The protocol is designed to allow text to be sent between computers so it is perfect for sending basic data from High Altitude Balloons, such as GPS coordinates. The software used for the RTTY protocol can be tricky to use, with the scope to alter and customise many of the settings. It is also Open Source Software, meaning you are free to have a look at the code and make improvements to it if you like.
+
 ### LoRa
+
+
+
 ### APRS
+=======
+
+An optional board can be stacked with the RTTY board that uses the LoRa protocol. This protocol was designed to allow multiple computers to communicate with each other over a Low Power Wide Area Network (LPWAN). It is particularly useful for networking "Internet of Things" (IoT) devices over large distances and with a very low power consumption.
+
+Unlike RTTY, LoRa is proprietary software, meaning you can't view or modify the source code. It is particularly easy to use however, with minimal configuration required and it is incredibility robust. One fo the major advantages of the LoRa protocol is it can handle more than simple text, meaning it is capable of transmitting other data such as photographs from the HAB.
+
+### RTTY or LoRa
+
+It might seem to make sense to use LoRa boards on their own as they are capable of sending all the data you need from your HAB. However, while LoRa is easier to use and very robust, it has not yet gained the popularity of the RTTY protocol. As on your HAB flight, you'll be getting help from the HAB community, many of whom will also be tracking your balloon, the RTTY protocol is better suited to allowing community members to participate.
+
+So, in order to ensure that you have a succesful flight you're going to use both RTTY and LoRa.
 
 ## Assembly
 
