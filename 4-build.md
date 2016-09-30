@@ -5,7 +5,7 @@
 ## Transmission Mechanisms
 ### RTTY
 ### LoRa
-### Aprs
+### APRS
 
 ## Assembly
 
@@ -59,31 +59,31 @@ Once your tracker is assembled you will need to install and configure the approp
 
 ### Install "Pi in the Sky" Software
 You'll need to install the Software that controls the PITS board and all of it's dependencies. There a 2 ways to do this:
-  - You can follow the [installation steps] found on the "Pi In the Sky" website.
+  - You can follow the [installation steps](http://www.pi-in-the-sky.com/index.php?id=sd-card-image-from-scratch) found on the "Pi In the Sky" website.
   - We've also created an install [script](rpf.io/hab_install) which simplifies and speeds up the process. To run the script simply type:
 
   `bash <(wget -O- rpf.io/habinstall)`
   - This will download and run the install script, which will first perform an update before asking you a number of setup questions.
     1. Do you want to enable the Raspberry Pi camera?
 
-      ![](https://github.com/raspberrypilearning/components/blob/master/components/camera.png)
+      ![Pi Camera](https://github.com/raspberrypilearning/components/blob/master/components/camera.png)
 
       *This enables the Raspberry Pi camera in order to capture images during the flight. If you have a camera module and are planning to use it you should answer* **Y**.
     1. Are you using a Lora board?
 
-      ![](4/lorabaord.jpg)
+      ![Lora Board](4/loraboard.jpg)
 
       *If you are using a LORA board to transmit data then say* **Y** *here. This will enable the SPI protocol which is used by the LORA board.*
 
     1. Do you want to enable the I2C protocol?
 
-      ![](4/i2c.jpg)
+      ![I2C connectors](4/i2c.jpg)
 
       *If you are planning to connect [extra sensors](http://www.pi-in-the-sky.com/index.php?id=adding-a-pressure-sensor) to the PITs board via the I2C connectors, then select* **Y** *here. Most people will select* **N**.
 
     1. Are you you using a USB Webcam?
 
-      ![](4/webcam.png)
+      ![USB Webcam](4/webcam.png)
 
       *There are some USB webcamera that can be connected to the Raspberry Pi and used to capture stills and video. Selecting* **Y** *here installs the fswebcam module. Most people will select* **N**.
 
