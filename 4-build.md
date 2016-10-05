@@ -28,11 +28,6 @@ The protocol is designed to allow text to be sent between computers so it is per
 
 ### LoRa
 
-
-
-### APRS
-=======
-
 An optional board can be stacked with the RTTY board that uses the LoRa protocol. This protocol was designed to allow multiple computers to communicate with each other over a Low Power Wide Area Network (LPWAN). It is particularly useful for networking "Internet of Things" (IoT) devices over large distances and with a very low power consumption.
 
 Unlike RTTY, LoRa is proprietary software, meaning you can't view or modify the source code. It is particularly easy to use however, with minimal configuration required and it is incredibility robust. One fo the major advantages of the LoRa protocol is it can handle more than simple text, meaning it is capable of transmitting other data such as photographs from the HAB.
