@@ -13,8 +13,10 @@ Once you've found a possible site, you're going to need to make a prediction as 
 1. In a browser navigate to [the Habhub predictor](http://predict.habhub.org)
 1. You'll be presented with a map that should be centered around you current location.
 1. The first thing to do is to find the logitude and latitude of your launch site. Find your launch site on the map by zooming in, and then with your cursor hovering over the launch site, note down the longitude and latitude displayed in the top right corner of the screen.
-![shot1]
+![shot1](3/shot1.png)
 1. Now you can enter those coordinates into the *Prediction* box at bottom right of the screen, and save the location.
+![shot2](3/shot2.png)
+![shot3](3/shot3.png)
 1. If you launch site is considerably above sea level, then it's probably best to add in your altitude. This information is easily obtained from [Free Map Tools](https://www.freemaptools.com/elevation-finder.htm)
 1. To begin with, you can set a few default values for your launch:
 
@@ -33,14 +35,20 @@ Once you've found a possible site, you're going to need to make a prediction as 
 	|Balloon Mass|`Hwoyee-500`|
 	|Target Scent Rate|`5`|
 
+![shot4](3/shot4.png)
+
 1. Then click on *Use Values* to accept the Burst Altitude calculation
 
 1. With all the data now entered you can click on Run Prediction to see where your balloon will go.
 
+![shot6](3/shot6.png)
+
 ## Identify challenges
 
 The conditions at 9:00am tomorrow might not be quite the same as your actual launch window. The next task is perfect for your team of students to have a go at.
-They can tweek various settings in the Habhub predictor to see where the balloon would travel with slightly heavier or lighter payloads, with slightly different ascent and descent rates, and most importantly when lauched at different times (within a 180 hour window).
+They can tweek various settings in the Habhub predictor to see where the balloon would travel with slightly heavier or lighter payloads, with slightly different ascent and descent rates, and most importantly when lauched at different times (within a 180 hour window). Here's an example of how flight plans can change each day, over a 10 day period.
+
+![animation](3/flight-paths.gif)
 
 What your students need to be wary of is the ballon passing over, or landing in, any of the following environments.
 
