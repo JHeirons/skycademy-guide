@@ -86,7 +86,23 @@ Once your tracker is assembled you will need to install and configure the approp
   1. The SD card image is compressed inside a .zip file which needs to be uncompressed to extract to .img file inside.
   1. You should then be able to write your SD card image using a tool called Etcher, which you can download at [etcher.io](https://www.etcher.io/)
   1. Once your card is written you can boot your Raspberry Pi, if this is the first time you have done this take a look at our [quickstart guide](https://www.raspberrypi.org/learning/hardware-guide/quickstart/)
-  1. You'll also need to get your Raspberry Pi Connected to the internet which is explained [here](https://www.raspberrypi.org/learning/hardware-guide/networking/)
+  1. You'll also need to get your Raspberry Pi Connected to the internet. If you're connecting via an ethernet cable, then you can simply plug it in and everything should work fine. If you are connecing using WiFi (with a Pi3 or using a dongle), then the process is a little more complicated.
+  1. Open a terminal (ctrl+alt+t)
+  1. Then type `sudo nano /etc/wpa_supplicant/wpa_supplicant.conf`
+  1. You now need to add four lines to the bottom of the file to put in your WiFi details.
+  
+  ```bash
+  network={
+          ssid="Your WiFI Network Name"
+		  psk="Your WiFI Network Password"
+  }
+  ```
+  1. Restart your Raspberry Pi and it should automatically connect to the WiFi network.
+  1. Once it is connected, you can make sure that it is up-to-date by running the following command in the terminal (ctrl+alt+t)
+
+```bash
+  sudo apt-get update && sudo apt-get upgrade
+  ```
 
 ### Install "Pi in the Sky" Software
 You'll need to install the Software that controls the PITS board and all of it's dependencies. There a 2 ways to do this:
@@ -125,3 +141,10 @@ You'll need to install the Software that controls the PITS board and all of it's
 To configure your tracker kit you need to edit a single configuration file using this command:
 
 `sudo nano /boot/pisky.txt`
+
+1. There are just a few lines to edit here.
+1. The first is the payload name - you can change `CHANGEME` to something more appropriate
+1. The second is the RTTY frequency, currently set to `434.250`.
+1. The third is the LORA payload name, again currently called `CHANGEME`
+1. If you're using a Picamera 2, then you'll also want to change `full_high_width` to `3280` and `full_high_height` to `2464`
+1. Once that is done hit `ctrl`+`x` and then type `y` to save and close the file.
