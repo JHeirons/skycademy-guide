@@ -143,8 +143,11 @@ To configure your tracker kit you need to edit a single configuration file using
 `sudo nano /boot/pisky.txt`
 
 1. There are just a few lines to edit here.
-1. The first is the payload name - you can change `CHANGEME` to something more appropriate
-1. The second is the RTTY frequency, currently set to `434.250`.
-1. The third is the LORA payload name, again currently called `CHANGEME`
+1. The first is the payload name - you can change `CHANGEME` to something more appropriate. Any name will do so long as it is under 8 characters and doesn't contain spaces. `RPF-1` for instance
+1. The second is the RTTY frequency, currently set to `434.250`. This can be changed to anything between `xxx.xxx` and `xxx.xxx`
+1. The third is the LORA payload name. Use the same name as you did for RTTY, but add a 2 on the end instead of a 1, e.g. `RPF-2`.
 1. If you're using a Picamera 2, then you'll also want to change `full_high_width` to `3280` and `full_high_height` to `2464`
 1. Once that is done hit `ctrl`+`x` and then type `y` to save and close the file.
+
+## Restart you Raspberry Pi
+With everything configured, you can now restart your Raspberry Pi. Once it has booted, it should autmoatically start transmitting data over both RTTY and LoRA.
