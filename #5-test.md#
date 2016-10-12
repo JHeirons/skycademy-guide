@@ -4,7 +4,7 @@ Before you send your balloon up into the stratosphere, it might be a good idea t
 
 ## Receiving LoRa
 
-To receive LoRa data, you're going to use a second Raspberry Pi, along with a LoRa Gateway board. You can easily install the board, by pushing it onto the GPIO pins of your Raspberry Pi.
+To receive LoRa data, you're going to use a second Raspberry Pi, along with another LoRa board to act as a gateway. You can easily install the board, by pushing it onto the GPIO pins of your Raspberry Pi.
 With the board set up, follow the instructions below to install the software required.
 
 1. Firstly you need to enable SPI. This can be done by typing 
