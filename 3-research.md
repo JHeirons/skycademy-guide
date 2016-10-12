@@ -48,7 +48,7 @@ Once you've found a possible site, you're going to need to make a prediction as 
 The conditions at 9:00am tomorrow might not be quite the same as your actual launch window. The next task is perfect for your team of students to have a go at.
 They can tweak various settings in the Habhub predictor to see where the balloon would travel with slightly heavier or lighter payloads, with slightly different ascent and descent rates, and most importantly when launched at different times (within a 180 hour window). Here's an example of how flight plans can change each day, over a 10 day period.
 
-![animation](3/flight-paths.gif)
+![animation](3/flight-path.gif)
 
 What your students need to be wary of is the balloon passing over, or landing in, any of the following environments.
 
