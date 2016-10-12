@@ -7,7 +7,7 @@ Before you send your balloon up into the stratosphere, it might be a good idea t
 To receive LoRa data, you're going to use a second Raspberry Pi, along with a LoRa Gateway board. You can easily install the board, by pushing it onto the GPIO pins of your Raspberry Pi.
 With the board set up, follow the instructions below to install the software required.
 
-1. Firstly you need to enable SPI. This can be done by typing 
+1. Firstly you need to enable SPI. This can be done by typing
 
 
 ## Receiving RTTY
@@ -25,6 +25,7 @@ For your initial tests, turn on the radio and then tune it to the frequency that
   <source src="5/rtty.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio>
+
 
 The sound that is being picked emitted by the radio includes all the data that is being broadcast by the Raspberry Pi. Decoding this data is handled in the next section.
 
@@ -66,7 +67,6 @@ rtl_fm -M usb -f 434.250M -s 48k
 ```
 1. You terminal screen should fill with random looking characters. This is data from your RTTY board. This can now be decoded, and turned into audio.
 
-
 ## Decoding RTTY
 
 #### Windows
@@ -97,7 +97,7 @@ brew install minimodem
 rtl_fm -M usb -f 434.100M -s 48k | tee >(play -q -t raw -r 48k -e s -b 16 -c 1 -V1 -) |sox -t raw -r 48k -e s -b 16 -c 1 -V1 - -t wav - |minimodem --rx -a 300 --stopbits 2 -8 --quiet -f -
 ```
 
-1. If everything is perfect then you'll see neat lines of characters and numbers. Normally though, some of the data will be lost, and you may see output that looks a little like 
+1. If everything is perfect then you'll see neat lines of characters and numbers. Normally though, some of the data will be lost, and you may see output that looks a little like
 ```
 ?������k����00.0���,0,31.�,�'0,0.�*9B73
 l$RPF-1 		,44,00:00�L00000L0l0�0�0<�000,0,0,0,31.2,0.0,0.000*04E4
@@ -134,7 +134,7 @@ sudo apt-get install minimodem
 rtl_fm -M usb -f 434.100M -s 48k | tee >(play -q -t raw -r 48k -e s -b 16 -c 1 -V1 -) |sox -t raw -r 48k -e s -b 16 -c 1 -V1 - -t wav - |minimodem --rx -a 300 --stopbits 2 -8 --quiet -f -
 ```
 
-1. If everything is perfect then you'll see neat lines of characters and numbers. Normally though, some of the data will be lost, and you may see output that looks a little like 
+1. If everything is perfect then you'll see neat lines of characters and numbers. Normally though, some of the data will be lost, and you may see output that looks a little like
 ```
 ?������k����00.0���,0,31.�,�'0,0.�*9B73
 l$RPF-1 		,44,00:00�L00000L0l0�0�0<�000,0,0,0,31.2,0.0,0.000*04E4
