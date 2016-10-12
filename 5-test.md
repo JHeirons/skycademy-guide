@@ -20,7 +20,7 @@ For your initial tests, turn on the radio and then tune it to the frequency that
 <audio controls>
   <source src="5/rtty.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
-</audio> 
+</audio>
 
 ## Decoding RTTY
 
