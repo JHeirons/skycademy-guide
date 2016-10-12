@@ -31,7 +31,7 @@ There are a number of variables which determine the path the balloon takes, some
   - mass of the payload
 - If all else fails you may have to consider changing your launch time or even launch location.
 
-## Tracking
+## Distributed radio tracking system
 
 ![radio tracking](1/tracking.gif)
 
