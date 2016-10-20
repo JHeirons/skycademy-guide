@@ -20,7 +20,7 @@ Launching your own near space mission involves sending an object through local a
 - Choosing a launch location can be tricky, but you should ensure you have the consent of the landowner to launch from their site.
 
 ## Flight Predictions
-![Flight Predictions](1/flight-paths.gif)
+![Flight Predictions](1/flight-path.gif)
 Once you release you balloon flight you will have no control over where it ends up. Luckily there are some great tools available to help you predict the flight path.
 There are a number of variables which determine the path the balloon takes, some you can change to effect the flight and others that you have no control over.
 - The weather is something beyond your control and depending of where you are launching from it could be more or less predictable. In the UK the weather can vary hugely from day to day which presents an interesting challenge.
