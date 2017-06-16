@@ -1,16 +1,18 @@
 # Anatomy of a flight
 
+![Overview animation](1/overview.gif)
+
 Before you begin planning a flight it's important to understand what's involved, below is an overview of what happens during a balloon flight.
 
 ## Overview
-A high altitude flight involves sending a lightweight payload into the upper atmosphere (not space) attached to a weather balloon. The chart shows a fairly typical flight profile, rising steadily (about 5m/s) to a height of 31km and then descending fairly rapidly (average or 12m/s).
+A High Altitude Balloon flight involves sending a lightweight payload into the upper stratosphere (which isn't space) attached to a weather balloon. The chart shows a fairly typical flight profile, rising steadily (about 5m/s) to a height of 31km and then descending fairly rapidly (average or 12m/s).
 
 ![what happens in a balloon flight?](1/flightgraph.png)
 
 - The balloon, filled with either Hydrogen or Helium, generates the lift required to [reach the upper atmosphere](https://www.youtube.com/watch?v=_CPRcW4IwS0)
 - At the apex of the flight, the balloon, fully expanded due to decreased air pressure, will [burst](https://www.youtube.com/watch?v=PfD309zhKi0) leaving the payload to fall back down to earth.
 - During the descent, the payload is slowed by a parachute which is between the payload and the balloon
-- You goal is to successfully launch the balloon and be at (or near) the landing site when the balloon comes down
+- The goal is to successfully launch the balloon and be at (or near) the landing site when the balloon comes down
 
 ## Permission to launch
 
@@ -20,7 +22,11 @@ Launching your own near space mission involves sending an object through local a
 - Choosing a launch location can be tricky, but you should ensure you have the consent of the landowner to launch from their site.
 
 ## Flight Predictions
+
+Finding a good launch window can be tricky, the animation below shows a predicted flight path of a balloon at the same time of day for seven consecutive days.
+
 ![Flight Predictions](1/flight-path.gif)
+
 Once you release you balloon flight you will have no control over where it ends up. Luckily there are some great tools available to help you predict the flight path.
 There are a number of variables which determine the path the balloon takes, some you can change to effect the flight and others that you have no control over.
 - The weather is something beyond your control and depending of where you are launching from it could be more or less predictable. In the UK the weather can vary hugely from day to day which presents an interesting challenge.
@@ -31,19 +37,20 @@ There are a number of variables which determine the path the balloon takes, some
   - mass of the payload
 - If all else fails you may have to consider changing your launch time or even launch location.
 
-## Distributed radio tracking system
+## Tracking the flight
 
 ![radio tracking](1/tracking.gif)
 
-- During the flight, the payload receives GPS data from satellites overhead
-- It then combines its location with some other data including time, temperature and a timestamp to create a sentence
-- This sentence is then transmitted using a radio transmission down towards receivers on the ground
-- The team launching the payload receives the data and uses this to follow the balloon
-- Other HAB enthusiasts can also receive the signal if they have similar tracking equipment
-- Anyone receiving the transmissions can upload their data to the [habhub.org](habhub.org) website. Uploaded data can be seen in the [logtail](habitat.habhub.org/logtail)
-- The website collates all data and uses it to plot the payload position on a map
-- Using this distributed tracking system means that the flight isn’t dependent on a single person receiving and makes it much more likely that a flight can be tracked and recovered.
+1. During the flight, the payload receives GPS data from satellites overhead
+1. It then combines its location with some other data including time, temperature and a timestamp to create a sentence
+1. This sentence is then transmitted using a radio transmission down towards receivers on the ground
+1. The team launching the payload receives the data and uses this to follow the balloon
+1. Other HAB enthusiasts can also receive the signal if they have similar tracking equipment
+1. Anyone receiving the transmissions can upload their data to the [habhub.org](habhub.org) website. Uploaded data can be seen in the [site log](habitat.habhub.org/logtail)
+1. The website collates all data and uses it to plot the payload position on a [map](tracker.habhub.org)
+1. Using this distributed tracking system means that the flight isn’t dependent on a single person receiving and makes it much more likely that a flight can be tracked and recovered.
 
+## Some radio theory
 ![radio horizon](1/radiohorizon.JPG)
 
 - Radio waves travel in straight lines and need line of sight for the signal to be received
@@ -60,17 +67,16 @@ There are a number of variables which determine the path the balloon takes, some
 - At a height of less than 500 meters, it is unlikely that any other community receivers will be able to receive and decode data from a payload
 - The aim of the launch team is to get someone to the likely landing site for the payload in order to receive the signal as it comes down and ultimately get it’s final position on the ground.
 
-# Getting involved
+## Getting involved
 If you've never been involved in a high altitude balloon flight there are some simple ways to get started.
 
-## 1. Participate in a High Altitude Balloon Launch
+### Participate in a High Altitude Balloon Launch
 
 A great way to find out what’s involved in a High Altitude Balloon flight is to take part. While no part of a flight is hugely complicated, there are many aspects to manage at once. Taking part can help make these aspects clearer without having to plan and run your own launch. To take part you could:
-  - Apply to take part in [Skycademy](https://www.raspberrypi.org/picademy/skycademy/), the Raspberry Pi Foundation's high altitude balloon CPD that takes place once a year.
-  - The [Habhub](http://habitat.habhub.org/) website maintains a [calendar](http://habitat.habhub.org/calendar/) of upcoming launches, if there's one local to you contact the organiser and see if you can help.
+  - Visit the [Habhub](http://habitat.habhub.org/) website which maintains a [calendar](http://habitat.habhub.org/calendar/) of upcoming launches, if there's one local to you contact the organiser and see if you can help.
   - Follow the [#ukhas](https://twitter.com/hashtag/ukhas) hashtag to talk to other balloon enthusiasts and find out where and when they are launching.
 
-### Following flights online
+### Follow flights online
 
 There are frequent launches taking place all over the world and many of them track their progress through the tracking website [tracker.habhub.org](https://tracker.habhub.org) (shown below). Their tools allow you to look for upcoming launches and follow active flights.
 
@@ -114,4 +120,4 @@ Some payloads utilise the Long Range (LORA) network mechanism which transmits th
 
 ![lora signal path](1/lorasequence.png)
 
-The easiest way to build a LORA gateway is with a Raspberry Pi and a Lora Hat. This will cost approximately £80 and you can find instructions at: [http://www.pi-in-the-sky.com/index.php?id=making-a-lora-gateway](http://www.pi-in-the-sky.com/index.php?id=making-a-lora-gateway).
+The easiest way to build a LORA gateway is with a Raspberry Pi and a Lora Hat. This will cost approximately £80 and you can find instructions in the [build](4-build.md) section of this guide

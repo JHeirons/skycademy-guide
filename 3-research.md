@@ -1,16 +1,30 @@
 # 3. Research a launch site
 
-For your HAB launch to be successful you need to locate a suitable launch site (or two) to use on the day of the launch.
+For your HAB launch to be successful you need to locate a suitable launch site (or two) from which to release you balloon.
 
-An ideal site would have a large open space where the balloon can be safely filled, have easy access from the road so you can transport all the equipment, and provide some shelter from the wind. Additionally you want to ensure you're not going to be launching too close to a tree line or buildings that might snag your payload as it ascends into the air.
+An ideal site would have:
+- A large open space where the balloon can be safely filled.
+- Have easy access from the road so you can transport all the equipment.
+- Good mobile and 3G/4G coverage to allow you to upload data
+- Some kind of shelter or wind break such as a tree line or buildings, in moderate wind these will protect your balloon.
+- Permission from the owner of the land is important and should be sought.
 
-Another key point to consider is who owns the land and who do you have to ask permission from before launching. Some sites might also require you to have public liability insurance, if you're taking students along to the launch for instance.
+Good examples of launch sites include:
+- School grounds (with playing fields or open space)
+- Museum grounds
+- Fields (with the owner's consent)
+
+It's really worth looking around at all the feasible options and having a few options available. Being able to choose where you launch from gives you one more variable that you can control and therefore more control over when your launch can go ahead.
 
 ## Run a prediction with sample data
 
-Once you've found a possible site, you're going to need to make a prediction as to your balloon's flight path and probable landing site. There are several variables that can affect your balloon's flight path, such as it's mass, it's ascent rate and it's burst altitude. Of course the variable with the biggest impact is the wind. Luckily there is a tool available on [Habhub](http://predict.habhub.org) for predicting the probable flight path of a balloon.
+Once you've found a possible site, you're going to need to make a prediction as to your balloon's flight path and probable landing site. There are several variables that will affect your balloon's flight path, including it's mass, choosen ascent rate and your target burst altitude. The biggest factor which dictates your flight path is the local wind conditions, which is also the factor you have no control over.
 
-For this you're going to use some representative data, to give you an indication of the likely flight path, later you will need to use you're own accurate values.
+Luckily there is a handy tool available at [Habhub](http://predict.habhub.org) for predicting the probable flight path of a balloon.
+
+For each launch site you investigate, you should simulate a flight given some exemplar data. This results of the simulation will give you indications about the likely path of the balloon and therefore the suitability of the site.
+
+To run a prediction you're going to use some representative data, however later you **must** use you're own accurate values for your payload.
 
 | Data needed  | Example Value | Notes                                                                                                                                                                                           |
 |--------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -21,14 +35,14 @@ For this you're going to use some representative data, to give you an indication
 
 You can then use the [habhub burst calculator](http://predict.habhub.org/) to estimate the burst altitude of balloon carrying your payload.
 
-![Habhub Calculator](3/calc.png)
+[![Habhub Calculator](3/calc.png)](http://predict.habhub.org/)
 
 Input the values for mass, ascent rate and balloon type from the table above. Remove the target burst altitude and the calculator will give you some useful data underneath. The most important data is recorded below:
 
 | Data needed    | Example Value      | Notes                                                                                                                                                                          |
 |----------------|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Burst Altitude | 27,553m            | The predicted height at which the balloon will burst. To capture images showing the edge of space and the curvature of the earth you should be aiming for higher than 25,000m. |
-| Neck Lift      | 997g               | The amount of lift needed to be generated by the balloon in order to acheive the target ascent rate and burst altitude, this figure is needed for launch day.                  |
+| Neck Lift      | 997g               | The amount of lift which needs to be generated by the balloon in order to acheive the target ascent rate and burst altitude, this figure is needed for launch day.                  |
 | Helium Volume  | 1.46 m<sup>2</sup> | The amount of helium needed to generate the required neck lift, this figure is important when sourcing helium to make sure you have enough                                     |
 
 
@@ -37,20 +51,21 @@ Now that you have all the required data to generate a flight path you can run a 
 1. In a browser navigate to [the Habhub predictor](http://predict.habhub.org)
 1. You'll be presented with a map that should be centered around you current location.
 1. The first thing to do is to find the longitude and latitude of your launch site. Find your launch site on the map by zooming in, and then with your cursor hovering over the launch site, note down the longitude and latitude displayed in the top right corner of the screen. Switching to satelite view can be useful for this.
-![shot1](3/shot1.png)
+[![shot1](3/shot1.png)](http://predict.habhub.org)
 1. Now you can enter those coordinates into the *Prediction* box at bottom right of the screen, and save the location.
 ![shot2](3/shot2.png)
+1. Give the site a name.
 ![shot3](3/shot3.png)
 1. If you launch site is considerably above sea level, then it's probably best to add in your altitude. This information is easily obtained from [Free Map Tools](https://www.freemaptools.com/elevation-finder.htm)
-1. To begin with, you can choose a time and use some of the values you just calculated:
+1. To begin with, you choose a time and use some of the values you just calculated:
 
-	| Data | Value |
-	| ---- | ----- |
-	| Launch Time | `9:00` |
-	| Launch Data | `Tomorrow's Date` |
-	| Ascent Rate | `5` |
-	| Burst Altitude | `27553` |
-	| Descent Rate | `5` |
+	| Data           | Value           |
+	|----------------|-----------------|
+	| Launch Time    | 9:00            |
+	| Launch Date    | Tomorrow's Date |
+	| Ascent Rate    | 5               |
+	| Burst Altitude | 27553           |
+	| Descent Rate   | 5               |
 
 1. With all the data now entered you can click on Run Prediction to see where your balloon will go.
 
@@ -63,7 +78,7 @@ They can tweak various settings in the Habhub predictor to see where the balloon
 
 ![animation](3/flight-path.gif)
 
-What your students need to be wary of is the balloon passing over, or landing in, any of the following environments.
+What your students need to be wary of is the balloon passing over, or landing in, any of the following hazards.
 
 ### Airfields / Airports
 
@@ -75,11 +90,11 @@ As part of your launch you will be contacting the Civil Aviation Authority (in t
 
 If you're proposed launch site is near the coast, then the most obvious large body of water to avoid is the sea. It's very easy for a high altitude balloon to drift a little further than you had planned due to the unpredictability of wind currents and inaccuracies in factors such as burst altitude. If it looks like your payload is likely to land within a few miles of the coast, it is better to be safe than sorry and pick an alternative launch site or time of day.
 
-Small ponds, lakes and rivers are harder to take into account, but if your flight path is such that your payload is likely to come down near a large lake or loch, then it might be best to choose a different launch site.
+Small ponds, lakes and rivers are harder to take into account, but if your flight path is such that your payload is likely to come down near a large lake or loch, then it might be best to change the time or location of your flight.
 
 ### Large towns / built up areas
 
-Although the payload is rather small, and unlikely to do any damage to people or objects should it land on them, it is unwise to allow your payload to land in a built up area. A payload coming down on a busy road, could be a danger to traffic for instance. Additionally trying to retrieve your payload when it is lodged on the roof of an apartment building or buried in somebody's back garden may not be easy.
+Although the payload is rather small, and unlikely to do any damage to people or objects should it land on them, you shouldn't launch if your flight is likely to land in a built up area. A payload coming down on a busy road, could be a danger to traffic for instance. Additionally trying to retrieve your payload when it is lodged on the roof of an apartment building or buried in somebody's back garden may not be easy.
 
 ### Border crossings
 
@@ -89,60 +104,14 @@ If you plan to launch close to a national border, then you need to make sure of 
 
 GCHQ and the MOD don't take kindly to balloons landing in their bases and installations. Try to make sure that your balloon flight avoids military and government installations that may cause issues when it comes to retrieval. Local knowledge is paramount here. If you know an area is surrounded by barbed-wire and patrolled by armed guards, it's probably best avoided by your HAB flight.
 
+
 ## Apply for permission
 
-At least **28 days** before your expected launch, you need to apply for permission from the Civil Aviation Authority (UK only).
+Once you're happy that you have found a suitable launch site you should consult with your national aviation authority to get permission and find out any restrictions they might place on you.
 
-You can download the [CAA permission to launch form here](http://stratosvision.com/docs/CAALaunchForm.doc)
+- In the UK you need to apply to the Civil Aviation Authority at least **28 days** before your expected launch. Follow our [guide](caa.md) on how to apply.
+- In the USA you generally only need to apply for permission if your payload is over 2.7kg (6 pounds). Under that mass and you can call your local [FAA office](https://www.faa.gov/about/office_org/field_offices/fsdo/) and recieve permission over the phone (ideally before the launch day).on the from the Federal Aviation Authority. Follow our [guide](faa.md) for the approval process in the US
 
-### Filling in form
-
-It's always worth ringing the number at the top of the form prior to filling it out, explaining what it is you are planning. This will allow the CAA to advise you on nearby restrictions to flying based on your planned launch site and estimated flight path.
-
-#### Part 1
-![form1](3/form1.png)
--You are the balloon operator, so your name goes into the first field.
-- To get the map grid and Easting/Northing figures, go to the [grid reference finder site](http://www.gridreferencefinder.com/), and type in the Longitude and Latitude of your launch site in the fields on the left, and click on `Go`.
-
-![os1](3/os1.png)
-
-- A pin will appear in the map. Right-clicking on the point where the pin meets the map will drop another pin, with the information you need.
-
-![os2](3/os2.png)
-
-Here you can see that the Grid Reference is `SE 16478 58183`. For the purposes of the form:
-- `SE` is the Grid Reference
-- `164` is the Easting
-- `581` is the Nothing
-
-To find the map number, head on over to the [Ordnance Survey website](https://www.ordnancesurvey.co.uk/shop/maps.html) and type in your grid reference, which will bring up the map you need.
-
-![os3](3/os3.png)
-
-In this case I would choose `99`
-
-Most of the rest of the form should be self-explanatory. Of note though:
-1. The `Daily Period` is your launch window - the hours during which you plan to launch
-1. The `maximum dimensions` of your balloon will be around 1.5m
-1. You'll not be carrying a `radar reflector` as they are not a requirement in the UK
-1. The `Instrument suspended from the balloon` is "A small payload with flight computer and camera less than 500g"
-1. Lastly, you will have a parachute attached to the payload.
-
-The form also requires you to attach a section of a Landranger OS Map. This can be taken from the site you were on earlier - [grid reference finder site](http://www.gridreferencefinder.com/).
-
-In the pop up box for your pin you should see a link to `Ordnance Survey Map of Point`. Click this and you'll be taken to your OS map, which you can then screen-shot.
-
-![os4](3/os4.png)
-
-It's also helpful to add a few screen-shots that show an example or ideal flight path of your HAB.
-
-### Notam and restrictions
-
-If your flight is approved, you will receive a Notam (Notice To Airmen), that will also be displayed on the [Notam website](http://notaminfo.com/ukmap). This will detail your flight for pilots in the area, so they are aware of your launch.
-
-If approved, you will receive an exemption form like the one below which details the conditions of your launch, you **must** adhere to these restrictions.
-
-![CAA Exemption Form](3/exemption.png)
 
 ## Find backup sites and repeat
 
