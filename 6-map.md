@@ -134,3 +134,5 @@ Now that you have a payload unit, which is transmitting and being plotted on a m
  - Find out the limits of you tracking, what's the ground level range of the tracking equipment.
  - Test how quickly and reliably you can setup you tracking a recieving, practice and discover problems and solutions.
  - Play hide and seek, get someone to go for a walk and hide the payload whilst someone else tries to track and recover it.
+
+ Your aim is to get well practiced at setting up your payload and being able to receive data from it reliably.
