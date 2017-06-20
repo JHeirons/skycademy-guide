@@ -9,7 +9,7 @@ Both RTTY and LoRa are recieved in different ways and in the case of RTTY there 
 
 To make things easier we've developed a piece of software called "skygate" which runs a on a Raspberry Pi and with the right hardware will act as a one stop ballooning tracking tool.
 
-![Skygate Setup](5/skygate_diagram.jpg)
+![Diagram of Skygate Setup](5/skygate_diagram.jpg)
 
 - RTTY data is received by a USB Software Defined Radio (SDR) which feeds an audio signal into the Raspberry Pi 3
 - LoRa data is received and decoded by a LoRa board on the Raspberry Pi
@@ -79,7 +79,9 @@ For a successful position to be determined the GPS receiver needs to have line o
 
 If you still get no data then you may need to change the serial device skygate is listening to.
   1. Open up a terminal `Ctrl` + `Alt` + `T` and type `ls /dev/tty*`, this will give you a list of all the serial devices available.
+
     ![list of ttys](5/skygate_ttys.jpg)
+
   1. Look for any that aren't `tty` followed by a number. In the image above I there's `ttyACM0`,`ttyAMA0` and `ttyprintk`.
   1. Try inserting each of these into the settings tab, saving and rebooting, then wait to see if skygate can find a location.
 
@@ -87,189 +89,99 @@ If you still get no data then you may need to change the serial device skygate i
 
 The LoRa tab is where you can see sentences that are currently being received. When you first start it up you will probably find a screen that looks like this:
 
-
 ![LoRa View](5/skygate_lora.jpg)
 
 1. If you aren't receiving any data then first begin tuning down 1kHz at a time waiting a few seconds between each click.
 1. If you haven't received any data after roughly 10 clicks then tune back to where you started and then repeat but tuning upwards.
 1. When data is coming through your window should look like this:
+
   ![LoRa with data](5/skygate_loradata.jpg)
 
 1. Once you've found the right frequency for your hardware you should add it to the settings page as the new base frequency.
 
+### SSDV
 
+The tracker unit will transit images whilst in flight using *Slow Scan Digital Video* or SSDV for short. The SSDV tab shows a preview of images as there are being recieved.
 
+![Image of SSDV screen which image being recieved](5/skygate_ssdv.jpg)
 
+You can also scroll backwards and forwards through the recieved images using the buttons at either side.
 
+### RTTY
 
+To recieve RTTY data you will need a use a USB SDR using the RTL-FM chipset, such as the ones recommend in the [buying guide](buying_guide.md).
 
+The SDR needs to be connected to the Raspberry Pi before it is booted and the Skygate software loads. As it loads Skygate will form a connection to the SDR device and generate a signal from on the recieving frequency set up earlier.
 
+![Pic of SDR connected](5/sdr connected.jpg)
 
+To decode this signal a seperate piece of software called DL-Fldigi needs to be used. It can be launch in a window using using the **Launch DL-Fldigi** button. This will present a small window containing the software.
 
+  1. To use DL-fldigi to decode the signal you first need to setup the receiving mode. *To do this....*
 
+  ![Image of dl-fldigi settings](fldigi_rtty.jpg)
 
+  1. Once these are set you should start to see blue static appearing in what's called the **waterfall** area of the screen.
 
+  ![Waterfall with static](waterfall_static.jpg)
 
+  1. Slowly use the Skygate frequency controls to scan up to 10khz either side of your base frequency. You're looking for a pair of yellow signal lines like this:
 
-To receive LoRa data, you're going to use a second Raspberry Pi, along with a LoRa Gateway board. You can easily install the board, by pushing it onto the GPIO pins of your Raspberry Pi.
-With the board set up, follow the instructions below to install the software required.
+  ![Waterfall with Signal](waterfall_signal.jpg)
 
+  1. The spacing of the signal lines is related to the **carrier shift** of the signal. When you move your mouse cursor over the signal you see two vertical lines which should match the distance between the signal lines.
 
+  1. Line up the cursor so that the vertical lines match up with the signal lines and click.
 
+  ![Signal lines aligned](waterfall_signal_match.jpg)
 
-### Install PITS LoRa gateway
-  You'll need to install the Software that controls the PITS board and all of it's dependencies. There a 2 ways to do this:
-    - You can follow the [installation steps](http://www.daveakerman.com/?p=1719) found on Dave Akerman's website.
-    - We've also created an install [script](rpf.io/lorainstall) which simplifies and speeds up the process. To run the script simply type:
+  1. Once the cursor is lined up you should start to see data appearing in the Skygate window. After a while you might be able to make out some Sentence data.
 
-    `bash <(wget -O- rpf.io/lorainstall)`
+  ![Skygate sentence data](skygate_rtty_sentence.jpg)
 
+  1. It may take quite a while for a RTTY sentence to be successfully decoded, you may need to tune the frequency up or down a bit as well as checking the DL-fldigi cursor alignment.  
 
+### HAB
 
+The HAB tab provides an overall of all the data available including:
+- The position of the payload
+- Your position (or the position of the tracking unit)
+- The current time (UTC)
+- The direction from your position to the payload.
+- **other stuff?**
 
+## Uploading Data
 
+In order to get your payload's postion plotted on a map we first need to ensure that a few options are enabled.
 
+- On the **Settings** tab enable the **Lora Upload** setting, which will upload recieved lora data to the [Habhub](habhub.org) servers.
+- To upload the position of the tracking unit enable the **Chase Car Upload** setting.
+- *To enable RTTY data to be upload......*
 
+To check that data is being uploaded correctly there are a few websites to visit.
 
+  1. First you can check that your images are being uploaded by visiting [ssdv.habhub.org](ssdv.habhub.org). You should see all the recently recieved images from any payloads currently active.
 
+  ![SSDV site](ssdv_site.jpg)
 
+  If you want to see just your uploaded images alone then you can add a `/` and one of your payload names (eg [ssdv.habhub.org/RPF_2](ssdv.habhub.org/RPF_2)).
 
+  ![SSDV site with payload](ssdv_site_payload.jpg)
 
+  1. Next if you're uploading you Chase car position, you can visit the habhub flight tracker at [tracker.habhub.org](tracker.habhub.org), if you focus the map on your location you should find a car icon showing you position.
 
-## Receiving RTTY
+  ![Chase Car on Map](chase_car.jpg)
 
-### Option 1 - Using a hand-held radio receiver.
-If you have access to a hand-held radio receiver like the one shown below, you can use this to receive the RTTY data from the payload.
+  The tracker site is where you'll later find you payload postions being plotted, however there's some extra work to do before that will happen.
 
-![](5/mvt7100.jpg)
+  1. You can check that the telemetry sentences you've received are being uploaded by visiting the habhub log at [logtail.habhub.org](logtail.habhub.org)
 
-You can find hand held radio receivers from many outlets, although popular online auction sites are often the best source.
+  ![view of the logtail](logtail1.jpg)
 
-For your initial tests, turn on the radio and then tune it to the frequency that your payload is broadcasting RTTY at. You may need to play a little with the frequency dial to get a strong enough signal, but if all is working correctly you should hear something like this:
+  The logtail will sometimes move past quite fast depending on how many payloads are currently uploading, you can pause the scolling of the log so that you can scan through it.
 
-<audio controls>
-  <source src="5/rtty.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
+  What you're looking for is an entry for each payload name you are transmitting, like this:
 
+  ![logtail Entries](logtail2.jpg)
 
-The sound that is being picked emitted by the radio includes all the data that is being broadcast by the Raspberry Pi. Decoding this data is handled in the next section.
-
-### Option 2 - Using a software defined radio receiver.
-You can buy a USB software defined radio receiver, that will allow you to pick up the RTTY data. Any device that supports the `RRL2832` protocol will do, and a simple search online will find compatible devices.
-
-Using these devices varies depending on the platform you are using.
-
-#### Windows
-#### MacOS
-1. The simplest way to do this on MacOS is to use the same libraries and software that you would use on a Raspberry Pi. For this to work, you'll need to use a package manager called `brew`.
-1. You can find instructions for installing brew [on this page](http://brew.sh/), or by opening up a terminal and typing
-```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-```
-1. Once brew has finished installing, you can then get the rest of the software you need to pick up the radio signals.
-1. You'll need a software library to use the radio. Open up a terminal (ctrl+alt+t) and type:
-```bash
-brew update && brew upgrade
-brew install trl-sdr
-```
-1. Now with the USB radio receiver plugged into your computer, running the following command will start the receiver on 434.250MHz. You can adjust this to the frequency you choose when configuring `pisky.txt`
-
-```bash
-rtl_fm -M usb -f 434.250M -s 48k
-```
-1. You terminal screen should fill with random looking characters. This is data from your RTTY board. This can now be decoded, and turned into audio.
-
-
-#### Linux (including the Raspberry Pi)
-1. First you'll need the software library to use the radio. Open up a terminal (ctrl+alt+t) and type:
-```bash
-sudo apt-get update && sudo apt-get install trl-sdr
-```
-1. Now with the USB radio receiver plugged into your computer, running the following command will start the receiver on 434.250MHz. You can adjust this to the frequency you choose when configuring `pisky.txt`
-
-```bash
-rtl_fm -M usb -f 434.250M -s 48k
-```
-1. You terminal screen should fill with random looking characters. This is data from your RTTY board. This can now be decoded, and turned into audio.
-
-## Decoding RTTY
-
-#### Windows
-#### MacOS
-
-
-1. The first step is to translate the radio signals into an audio signal. To do this, you can use a software library called `sox`
-
-```bash
-brew install sox
-```
-
-1. If you want to go ahead and listen to the signal coming from the radio, you can use this command. Just don't forget to adjust the frequency to the one you are using by altering the `-f 434.100M` part of the command.
-
-```bash
-rtl_fm -M usb -f 434.100M -s 48k | tee >(play -q -t raw -r 48k -e s -b 16 -c 1 -V1 -)
-```
-
-1. This isn't much use to us at the moment. The audio signal can be translated into text, using a piece of software called minimodem
-
-```bash
-brew install minimodem
-```
-
-1. You can now see the data being transmitted.
-
-```
-rtl_fm -M usb -f 434.100M -s 48k | tee >(play -q -t raw -r 48k -e s -b 16 -c 1 -V1 -) |sox -t raw -r 48k -e s -b 16 -c 1 -V1 - -t wav - |minimodem --rx -a 300 --stopbits 2 -8 --quiet -f -
-```
-
-1. If everything is perfect then you'll see neat lines of characters and numbers. Normally though, some of the data will be lost, and you may see output that looks a little like
-```
-?������k����00.0���,0,31.�,�'0,0.�*9B73
-l$RPF-1 		,44,00:00�L00000L0l0�0�0<�000,0,0,0,31.2,0.0,0.000*04E4
-$$RPF-1 		,45,00:00:00,0.00000,0.00000,00000,0,0,0,31.2,0�.000*8B18
-$$RPF-1 		,46,00:00:00,0.00000,0.00000,00000,0,0,0,31.2,0.0,0.000*0B3D
-$$RPF-1 		,47,00:00:00,0.00000,0.00000,00000,0,0,0,31.2,0.0,0.000*84C1
-$$RPF-1 		,48,00:00:00,0.00000,0.00000,00000,0,0,0,31.2,0.0,0.000*2432
-$$RPF-1 		,49,00:00:00,0.00000,0.00000,00000,0,0,0,31.2,0.0,0.000*ABCE
-```
-1. Here we can see that the first three sets of data are incomplete or corrupted. The last four lines are perfect though
-#### Linux
-
-1. The first step is to translate the radio signals into an audio signal. To do this, you can use a software library called `sox`
-
-```bash
-sudo apt-get install sox
-```
-
-1. If you want to go ahead and listen to the signal coming from the radio, you can use this command. Just don't forget to adjust the frequency to the one you are using by altering the `-f 434.100M` part of the command.
-
-```bash
-rtl_fm -M usb -f 434.100M -s 48k | tee >(play -q -t raw -r 48k -e s -b 16 -c 1 -V1 -)
-```
-
-1. This isn't much use to us at the moment. The audio signal can be translated into text, using a piece of software called minimodem
-
-```bash
-sudo apt-get install minimodem
-```
-
-1. You can now see the data being transmitted.
-
-```
-rtl_fm -M usb -f 434.100M -s 48k | tee >(play -q -t raw -r 48k -e s -b 16 -c 1 -V1 -) |sox -t raw -r 48k -e s -b 16 -c 1 -V1 - -t wav - |minimodem --rx -a 300 --stopbits 2 -8 --quiet -f -
-```
-
-1. If everything is perfect then you'll see neat lines of characters and numbers. Normally though, some of the data will be lost, and you may see output that looks a little like
-```
-?������k����00.0���,0,31.�,�'0,0.�*9B73
-l$RPF-1 		,44,00:00�L00000L0l0�0�0<�000,0,0,0,31.2,0.0,0.000*04E4
-$$RPF-1 		,45,00:00:00,0.00000,0.00000,00000,0,0,0,31.2,0�.000*8B18
-$$RPF-1 		,46,00:00:00,0.00000,0.00000,00000,0,0,0,31.2,0.0,0.000*0B3D
-$$RPF-1 		,47,00:00:00,0.00000,0.00000,00000,0,0,0,31.2,0.0,0.000*84C1
-$$RPF-1 		,48,00:00:00,0.00000,0.00000,00000,0,0,0,31.2,0.0,0.000*2432
-$$RPF-1 		,49,00:00:00,0.00000,0.00000,00000,0,0,0,31.2,0.0,0.000*ABCE
-```
-1. Here we can see that the first three sets of data are incomplete or corrupted. The last four lines are perfect though
-
-## Uploading data
+  As you can see the entries curretly report the error `Error message` as the habhub system has no idea how to process the data it's receiving. In order to do that you're going to need to setup a payload document for each, which you'll do in the next step.
