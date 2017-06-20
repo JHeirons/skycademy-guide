@@ -105,5 +105,32 @@ With these payload docs setup you should be able to get you payload on the map.
 If at this point you can't see you payloads on the map, check that both your tracker and receiver are running and that you tracker outside and that your receiver is connected to the internet. For further help  thet easiest way to get support is by [Tweeting](https://twitter.com/intent/tweet?hashtags=skycademy,ukhas) us including the hastags #skycademy and #ukhas.
 
 ## Build a payload unit
+Now that your tracker shows up on the map it's time to think about how you will protect your electronics during their flight. There a number of considerations when designing designing a protective box for your tracker.
+
+  - The electronics need to be insulated from the low temperatures they will experience in the upper atmosphere. Polystyrene or insulation foam are therefore good materials for this.
+  - The unit needs to be able to survive some fairly violent motion, particularly at the point of burst and also landing. A good test would be to see whether it could survive the fall down a flight of stairs.
+  - You'll need to be able to cut holes in the case to allow your camera to see out and for your aerials and GPS antenna to stick out.
+  - The whole unit should be as light as possible, somewhere between 300g-500g whould be ideal.
+
+A rough outline of the key components of a payload unit are shown below:
+
+![Payload layout](6/payload_layout.png)
+
+- Inside the payload box should be the tracker unit, the 4xAA power pack, and the camera (which needs a hole to see through). These components need to be firmly secured inside the box and if possible evenly balanced.
+- The GPS antenna should be firmly secured on top (face up).
+- Once possible configuration for the aerials is to have one directly above the other to minimise interference with each other.
+- A metal (tinfoil is ideal) groundplane can be attached to the underside of the payload and connected (ideally with solder) to the metal braid of the aerial.
+- From the top of the payload box you'll want to attach 3-4 nylon strings, tying them together at a point about 50cm above the box.
+
+Payloads designs can come in many interesting shapes and sizes, here are a few exmaples:
+
+![Tiled view of some varying payload designs](6/tiled_payloads.jpg)
 
 ## Testing
+
+Now that you have a payload unit, which is transmitting and being plotted on a map you should test out your tracking and recieving capabilities.
+
+ - With you tracking unit running, take you payload box for a walk and see if your able to track it's position and create a GPS track.
+ - Find out the limits of you tracking, what's the ground level range of the tracking equipment.
+ - Test how quickly and reliably you can setup you tracking a recieving, practice and discover problems and solutions.
+ - Play hide and seek, get someone to go for a walk and hide the payload whilst someone else tries to track and recover it.
